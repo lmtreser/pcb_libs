@@ -6,8 +6,9 @@ La ultima version se puede descargar desde el repositorio [en este enlace](https
 
 ## Recursos
 
-- [SparkFun Electronics Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
-- [SparkFun Electronics KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries)
-- [Adafruit Eagle Library](https://github.com/adafruit/Adafruit-Eagle-Library)
-  
+- Bibliotecas EAGLE
+  -- [SparkFun Electronics Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
+  -- [Adafruit Eagle Library](https://github.com/adafruit/Adafruit-Eagle-Library)
+- Bibliotecas KiCad
+  -- [SparkFun Electronics KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries)
 
