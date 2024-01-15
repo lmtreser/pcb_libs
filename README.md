@@ -4,7 +4,7 @@ Bibliotecas para el diseño de PCBs con los componentes más utilizados en los t
 
 La ultima versión se puede descargar desde el repositorio [en este enlace](https://github.com/lmtreser/pcb_libs/).
 
-- **treser_lib.lbr**: compatible con Autodesk EAGLE v7 y superior.
+- /EAGLE/**treser_lib.lbr**: compatible con Autodesk EAGLE v7 y superior.
 - /KiCad/**Treser.pretty**: footprints compatibles con KiCad v7.
 
 ## Recursos
