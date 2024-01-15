@@ -6,6 +6,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 - /EAGLE/**treser_lib.lbr**: compatible con Autodesk EAGLE v7 y superior.
 - /KiCad/**Treser.pretty**: footprints compatibles con KiCad v7.
+- /KiCad/**Treser.3dshapes**: modelos 3D compatibles con KiCad v7.
 
 ## Recursos
 
