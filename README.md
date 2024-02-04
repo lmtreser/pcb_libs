@@ -4,14 +4,14 @@ Bibliotecas para el diseño de PCBs con los componentes más utilizados en los t
 
 La ultima versión se puede descargar desde el repositorio [en este enlace](https://github.com/lmtreser/pcb_libs/).
 
-- /EAGLE/**treser_lib.lbr**: compatible con Autodesk EAGLE v7 y superior.
-- /KiCad/**Treser.3dshapes**: modelos 3D compatibles con KiCad v7.
-- /KiCad/**Treser.pretty**: footprints compatibles con KiCad v7.
-- /KiCad/**Treser.symbols**: symbols compatibles con KiCad v7.
-- /FidoCadJ/**circuitos**: circuitos varios dibujados con FidoCadJ.
-- /FidoCadJ/**ejemplos**: ejemplos varios dibujados con FidoCadJ.
-- /FidoCadJ/**libs**: bibliotecas para FidoCadJ.
-- /Fritzing/**parts**: bibliotecas para Fritzing.
+- `/EAGLE/treser_lib.lbr` Biblioteca compatible con Autodesk EAGLE v7 y superior.
+- `/KiCad/Treser.3dshapes` Modelos 3D compatibles con KiCad v7.
+- `/KiCad/Treser.pretty` Footprints compatibles con KiCad v7.
+- `/KiCad/Treser.symbols` Symbols compatibles con KiCad v7.
+- `/FidoCadJ/circuitos` Circuitos varios dibujados con FidoCadJ.
+- `/FidoCadJ/ejemplos` Ejemplos varios dibujados con FidoCadJ.
+- `/FidoCadJ/libs` Bibliotecas para FidoCadJ.
+- `/Fritzing/parts` Bibliotecas para Fritzing.
 
 ## Recursos
 
