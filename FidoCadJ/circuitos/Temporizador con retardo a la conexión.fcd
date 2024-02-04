@@ -1,0 +1,99 @@
+[FIDOCAD]
+FJC B 0.5
+MC 235 200 0 0 elettrotecnica.bcrra
+FCJ
+TY 224 206 2 2 0 0 0 Consolas KM
+TY 245 210 2 2 0 0 0 Consolas 
+MC 203 195 0 0 elettrotecnica.bc
+FCJ
+TY 190 206 2 2 0 0 0 Consolas K1
+TY 213 205 2 2 0 0 0 Consolas 
+MC 203 146 0 0 elettrotecnica.cnccp
+MC 203 174 0 0 elettrotecnica.cnacm
+FCJ
+TY 192 181 2 2 0 0 0 Consolas A
+TY 213 184 2 2 0 0 0 Consolas 
+MC 133 126 0 0 elettrotecnica.tsc
+MC 266 208 1 0 elettrotecnica.sgn01
+MC 261 180 0 0 elettrotecnica.cnarc
+FCJ
+TY 253 181 2 2 0 0 0 Consolas KM
+TY 271 190 2 2 0 0 0 Consolas 
+MC 240 175 0 0 elettrotecnica.cna
+FCJ
+TY 232 181 2 2 0 0 0 Consolas K1
+TY 250 185 2 2 0 0 0 Consolas 
+MC 219 175 0 0 elettrotecnica.cna
+FCJ
+TY 211 181 2 2 0 0 0 Consolas K1
+TY 229 185 2 2 0 0 0 Consolas 
+LI 203 161 203 174 0
+LI 203 167 266 167 0
+LI 266 167 266 176 0
+FCJ 0 0 3 2 0 1
+TY 265 162 2 2 0 0 0 Consolas 4
+TY 271 177 2 2 0 0 0 Consolas 
+LI 219 175 219 167 0
+SA 219 167 0
+FCJ
+TY 218 162 2 2 0 0 0 Consolas 2
+TY 224 177 2 2 0 0 0 Consolas 
+LI 240 175 240 167 0
+SA 240 167 0
+FCJ
+TY 239 162 2 2 0 0 0 Consolas 3
+TY 245 177 2 2 0 0 0 Consolas 
+LI 240 190 240 195 0
+LI 266 190 266 198 0
+LI 203 193 219 193 0
+LI 219 193 219 190 0
+LI 203 190 203 195 0
+SA 203 193 0
+SA 203 167 0
+LI 203 220 203 229 0
+LI 203 229 266 229 0
+LI 266 229 266 218 0
+LI 240 229 240 220 0
+SA 240 229 0
+SA 203 229 0
+MC 188 229 0 0 ey_libraries.refpnt1
+FCJ
+TY 184 227 2 2 0 0 0 Consolas N
+TY 202 239 2 2 0 0 0 Consolas 
+MC 187 138 0 0 ey_libraries.refpnt1
+FCJ
+TY 184 136 2 2 0 0 0 Consolas L
+TY 197 148 2 2 0 0 0 Consolas 
+LI 203 146 203 138 0
+LI 203 138 192 138 0
+FCJ 0 0 3 2 0 1
+TY 206 138 2 2 0 0 0 Consolas 1
+TY 208 148 2 2 0 0 0 Consolas 
+LI 193 229 203 229 0
+TY 315 163 4 3 0 1 0 Consolas Automatismos con temporizadores
+TY 315 170 4 3 0 0 0 Consolas Un temporizador es un relé con retardo; en otras palabras, desde que apli-
+TY 315 176 4 3 0 0 0 Consolas camos el impulso al temporizador hasta que este cierra los contactos trans-
+TY 315 182 4 3 0 0 0 Consolas curre un cierto tiempo t. A este tipo de temporizador se le llama temporiza-
+TY 315 188 4 3 0 0 0 Consolas dor de conexión o de activación; existen otros tipos (temporizador de desco-
+TY 315 194 4 3 0 0 0 Consolas nexión o desactivación) que cierran los contactos al recibir tensión y perma-
+TY 315 200 4 3 0 0 0 Consolas nece en esa posición durante el tiempo establecido.
+RV 311 160 542 208 0
+FCJ 1 0
+RV 356 135 388 123 11
+TY 357 125 6 6 0 1 11 Consolas TEXTO
+LI 371 135 371 159 11
+FCJ 2 0 3 2 0 0
+RV 294 323 333 311 11
+TY 296 313 6 6 0 1 11 Consolas ROTULO
+LI 313 323 313 350 11
+FCJ 2 0 3 2 0 0
+RV 96 97 157 85 11
+TY 98 87 6 6 0 1 11 Consolas MARCADORES
+LI 96 91 69 91 11
+FCJ 2 0 3 2 0 0
+LI 126 85 126 52 11
+FCJ 2 0 3 2 0 0
+RV 221 122 264 110 11
+TY 222 112 6 6 0 1 11 Consolas ESQUEMA
+LI 236 122 236 159 11
+FCJ 2 0 3 2 0 0

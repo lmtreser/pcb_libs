@@ -1,0 +1,76 @@
+[FIDOCAD]
+FJC B 0.5
+MC 72 71 0 0 ey_libraries.pasres0
+FCJ
+TY 82 76 2 2 0 0 0 Consolas 
+TY 72 74 2 2 0 0 0 Consolas 3k3
+MC 86 78 1 0 ey_libraries.pasres0
+FCJ
+TY 33 87 2 2 0 0 0 Consolas 
+TY 90 79 2 2 0 0 0 Consolas 47kΩ
+MC 93 54 0 0 ey_libraries.pasres0
+FCJ
+TY 103 59 2 2 0 0 0 Consolas 
+TY 91 57 2 2 0 0 0 Consolas 1k8
+MC 85 36 1 1 220
+FCJ
+TY 75 41 2 2 0 0 0 Consolas 
+TY 76 36 2 2 0 0 0 Consolas LED
+MC 92 71 0 0 300
+FCJ
+TY 102 76 2 2 0 0 0 Consolas 
+TY 110 77 2 2 0 0 0 Consolas BC548
+MC 107 91 0 0 ey_libraries.refpnt0
+MC 86 91 0 0 ey_libraries.refpnt0
+MC 58 71 0 0 ey_libraries.refpnt1
+FCJ
+TY 56 66 2 2 0 0 0 Consolas ENTRADA
+TY 66 81 2 2 0 0 0 Consolas 
+MC 85 31 3 0 010
+FCJ
+TY 90 21 2 2 0 0 0 Consolas 
+TY 88 22 2 2 0 0 0 Consolas 12V
+MC 117 34 0 0 ihram.relspdt
+FCJ
+TY 121 27 2 2 0 0 0 Consolas RELE 12V
+TY 127 44 2 2 0 0 0 Consolas 
+LI 62 71 67 71 0
+LI 81 71 93 71 0
+LI 86 73 86 71 0
+SA 86 71 0
+LI 86 88 86 91 0
+LI 107 81 107 91 0
+LI 117 54 107 54 0
+LI 107 54 107 50 0
+LI 107 54 107 62 0
+LI 117 34 107 34 0
+LI 107 34 107 36 0
+LI 107 36 107 51 0
+LI 105 41 109 41 0
+PP 105 45 109 45 107 41 0
+TY 111 49 3 2 90 0 0 Consolas 1N4007
+LI 88 54 85 54 0
+LI 85 54 85 51 0
+LI 85 51 85 50 0
+LI 85 36 85 34 0
+LI 85 34 107 34 0
+LI 103 54 108 54 0
+SA 107 54 0
+SA 107 34 0
+LI 85 31 85 34 0
+SA 85 34 0
+MC 127 66 3 0 ey_libraries.refpnt1
+FCJ
+TY 125 68 2 2 0 0 0 Consolas NA
+TY 137 71 2 2 0 0 0 Consolas 
+MC 132 66 3 0 ey_libraries.refpnt1
+FCJ
+TY 131 68 2 2 0 0 0 Consolas C
+TY 142 71 2 2 0 0 0 Consolas 
+MC 137 66 3 0 ey_libraries.refpnt1
+FCJ
+TY 135 68 2 2 0 0 0 Consolas NC
+TY 147 71 2 2 0 0 0 Consolas 
+LI 127 61 127 58 0
+LI 132 58 132 61 0
+LI 137 58 137 61 0

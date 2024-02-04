@@ -1,13 +1,13 @@
 # PCB LIBs
 
-Bibliotecas para el diseño de PCBs con los componentes más utilizados en los trabajos prácticos de las escuelas EEST N°3 y EEST N°5 de la ciudad de Mar del Plata.
+Bibliotecas para el diseño de PCBs con los componentes más utilizados en los trabajos prácticos de las escuelas EEST N°3 y EEST N°5 de la ciudad de Mar del Plata. Además se incluyen bibliotecas para otros programas CAD que pueden ser útil en el diseño o en la generación de documentación.
 
 La ultima versión se puede descargar desde el repositorio [en este enlace](https://github.com/lmtreser/pcb_libs/).
 
 - /EAGLE/**treser_lib.lbr**: compatible con Autodesk EAGLE v7 y superior.
 - /KiCad/**Treser.pretty**: footprints compatibles con KiCad v7.
 - /KiCad/**Treser.3dshapes**: modelos 3D compatibles con KiCad v7.
-
+- /FidoCadJ/**circuits**: circuitos varios dibujados con el
 ## Recursos
 
 - Bibliotecas EAGLE
@@ -21,6 +21,9 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
   - [SparkFun Electronics KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries)
   - [SnapMagic KiCad](https://www.snapeda.com/kicad/)
   - [Digi-Key KiCad Library](https://github.com/Digi-Key/digikey-kicad-library)
+- Otros Recursos
+  - [FidoCadJ](https://darwinne.github.io/FidoCadJ/)
+  - [Fritzing](https://fritzing.org/)
 
 ## Licencia
 

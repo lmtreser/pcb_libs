@@ -1,0 +1,82 @@
+[FIDOCAD]
+FJC B 0.5
+MC 176 38 0 0 u_schem.131
+FCJ
+TY 182 27 2 2 0 0 0 Consolas 74HC04
+TY 186 43 2 2 0 0 0 Consolas 
+MC 217 38 0 0 u_schem.245
+MC 204 38 0 0 ey_libraries.pasres0
+FCJ
+TY 214 43 2 2 0 0 0 Consolas 
+TY 203 32 2 2 0 0 0 Consolas 220Ω
+MC 138 87 0 0 ey_libraries.refpnt0
+MC 133 24 3 0 010
+FCJ
+TY 138 14 2 2 0 0 0 Consolas 
+TY 131 14 2 2 0 0 0 Consolas 5V
+MC 148 38 3 0 elettrotecnica.cudvsi
+LI 196 38 199 38 0
+FCJ 0 0 3 2 0 1
+TY 196 34 2 2 0 0 0 Consolas 2
+TY 201 48 2 2 0 0 0 Consolas 
+LI 214 38 217 38 0
+LI 173 38 176 38 0
+FCJ 0 0 3 2 0 1
+TY 177 34 2 2 0 0 0 Consolas 1
+TY 178 48 2 2 0 0 0 Consolas 
+MC 176 57 0 0 u_schem.131
+MC 217 57 0 0 u_schem.245
+MC 204 57 0 0 ey_libraries.pasres0
+FCJ
+TY 214 62 2 2 0 0 0 Consolas 
+TY 203 51 2 2 0 0 0 Consolas 220Ω
+MC 148 57 3 0 elettrotecnica.cudvsi
+LI 196 57 199 57 0
+FCJ 0 0 3 2 0 1
+TY 196 53 2 2 0 0 0 Consolas 4
+TY 201 67 2 2 0 0 0 Consolas 
+LI 214 57 217 57 0
+LI 173 57 176 57 0
+FCJ 0 0 3 2 0 1
+TY 177 53 2 2 0 0 0 Consolas 3
+TY 178 67 2 2 0 0 0 Consolas 
+MC 176 76 0 0 u_schem.131
+MC 217 76 0 0 u_schem.245
+MC 204 76 0 0 ey_libraries.pasres0
+FCJ
+TY 214 81 2 2 0 0 0 Consolas 
+TY 203 70 2 2 0 0 0 Consolas 220Ω
+MC 148 76 3 0 elettrotecnica.cudvsi
+LI 196 76 199 76 0
+FCJ 0 0 3 2 0 1
+TY 196 72 2 2 0 0 0 Consolas 6
+TY 201 86 2 2 0 0 0 Consolas 
+LI 214 76 217 76 0
+LI 173 76 176 76 0
+FCJ 0 0 3 2 0 1
+TY 177 72 2 2 0 0 0 Consolas 5
+TY 178 86 2 2 0 0 0 Consolas 
+LI 143 33 133 33 0
+LI 133 33 133 24 0
+LI 133 33 133 71 0
+LI 133 71 143 71 0
+LI 143 52 133 52 0
+SA 133 52 0
+SA 133 33 0
+LI 138 87 138 73 0
+MC 137 71 3 0 u_schem.153
+MC 137 52 3 0 u_schem.153
+LI 138 54 138 69 0
+LI 138 50 138 43 0
+LI 138 43 143 43 0
+LI 143 62 138 62 0
+SA 138 62 0
+LI 143 81 138 81 0
+SA 138 81 0
+MC 236 87 0 0 ey_libraries.refpnt0
+LI 236 87 236 38 0
+LI 236 38 232 38 0
+LI 232 57 236 57 0
+SA 236 57 0
+LI 232 76 236 76 0
+SA 236 76 0

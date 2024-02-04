@@ -1,0 +1,31 @@
+[FIDOCAD]
+FJC B 0.5
+MC 125 65 3 0 ey_libraries.phores0
+FCJ
+TY 110 65 4 3 0 0 0 Consolas LDR
+TY 115 60 4 3 0 0 0 Consolas 
+MC 125 35 1 0 ey_libraries.pasres0
+FCJ
+TY 155 45 4 3 0 0 0 Consolas 
+TY 110 35 4 3 0 0 0 Consolas 10kΩ
+LI 125 45 125 55 0
+SA 125 50 0
+RV 140 25 175 75 0
+FCJ 1 1
+TY 150 40 4 3 0 0 0 Consolas ARDUINO
+TY 160 45 4 3 0 0 0 Consolas UNO
+LI 125 30 140 30 0
+SA 140 30 0
+FCJ
+TY 145 30 4 3 0 0 0 Consolas 5V
+TY 145 40 4 3 0 0 0 Consolas 
+SA 140 50 0
+FCJ
+TY 145 50 4 3 0 0 0 Consolas A0
+TY 145 60 4 3 0 0 0 Consolas 
+SA 140 70 0
+FCJ
+TY 145 70 4 3 0 0 0 Consolas GND
+TY 145 80 4 3 0 0 0 Consolas 
+LI 125 70 140 70 0
+LI 125 50 140 50 0

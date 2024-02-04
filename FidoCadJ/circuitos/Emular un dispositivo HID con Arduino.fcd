@@ -1,0 +1,48 @@
+[FIDOCAD]
+FJC B 0.5
+MC 82 40 0 0 ihram.pulsante
+FCJ
+TY 66 42 2 2 0 0 0 Consolas SWITCHS
+TY 92 50 2 2 0 0 0 Consolas 
+MC 138 56 0 0 ihram.pulsante
+FCJ
+TY 142 52 2 2 0 0 0 Consolas SWITCH
+TY 148 66 2 2 0 0 0 Consolas 
+MC 82 50 0 0 ey_libraries.refpnt0
+MC 138 64 0 0 ey_libraries.refpnt0
+MC 138 32 1 0 ey_libraries.pasres0
+FCJ
+TY 139 58 2 2 0 0 0 Consolas 
+TY 142 30 2 2 0 0 0 Consolas 100kΩ
+MC 148 44 2 0 ey_libraries.refpnt1
+FCJ
+TY 150 38 2 2 0 0 0 Consolas PIN DEL
+TY 150 42 2 2 0 0 0 Consolas MICRO
+MC 138 24 3 0 010
+FCJ
+TY 143 14 2 2 0 0 0 Consolas 
+TY 142 16 2 2 0 0 0 Consolas 5V
+RV 120 44 102 18 0
+MC 92 40 0 0 ihram.pulsante
+LI 92 34 92 28 0
+LI 92 28 102 28 0
+LI 82 34 82 24 0
+LI 82 24 102 24 0
+MC 92 50 0 0 ey_libraries.refpnt0
+LI 92 50 92 40 0
+LI 82 50 82 40 0
+SA 102 24 0
+FCJ
+TY 104 22 2 2 0 0 0 Consolas 2
+TY 107 34 2 2 0 0 0 Consolas 
+SA 102 28 0
+FCJ
+TY 104 28 2 2 0 0 0 Consolas 3
+TY 107 38 2 2 0 0 0 Consolas 
+LI 138 64 138 56 0
+LI 138 50 138 42 0
+LI 138 28 138 24 0
+LI 144 44 138 44 0
+SA 138 44 0
+TY 106 34 2 2 0 0 0 Consolas ATMEGA
+TY 106 38 2 2 0 0 0 Consolas 32u4

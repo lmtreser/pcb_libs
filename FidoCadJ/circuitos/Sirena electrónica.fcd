@@ -1,0 +1,179 @@
+[FIDOCAD]
+FJC B 0.5
+MC 227 77 0 0 u_schem.154
+FCJ
+TY 232 90 2 2 0 0 0 Consolas IC1-B
+TY 237 82 2 2 0 0 0 Consolas 
+MC 227 107 0 0 u_schem.154
+FCJ
+TY 232 101 2 2 0 0 0 Consolas IC1-C
+TY 237 112 2 2 0 0 0 Consolas 
+MC 256 92 0 0 u_schem.154
+FCJ
+TY 261 86 2 2 0 0 0 Consolas IC1-D
+TY 266 97 2 2 0 0 0 Consolas 
+MC 195 92 0 0 u_schem.154
+FCJ
+TY 200 86 2 2 0 0 0 Consolas IC1-A
+TY 205 97 2 2 0 0 0 Consolas 
+MC 244 63 0 0 ey_libraries.pasres0
+FCJ
+TY 254 73 2 2 0 0 0 Consolas 
+TY 243 57 2 2 0 0 0 Consolas 1MΩ
+MC 183 70 1 0 ey_libraries.pasres0
+FCJ
+TY 193 80 2 2 0 0 0 Consolas 
+TY 185 66 2 2 0 0 0 Consolas 1MΩ
+MC 224 132 0 0 ey_libraries.pasres0
+FCJ
+TY 207 166 2 2 0 0 0 Consolas 
+TY 223 126 2 2 0 0 0 Consolas 10kΩ
+MC 244 132 0 0 ey_libraries.pasres14
+FCJ
+TY 268 143 2 2 0 0 0 Consolas 
+TY 241 126 2 2 0 0 0 Consolas 47kΩ
+MC 166 109 0 0 u_schem.234
+FCJ
+TY 151 109 2 2 0 0 0 Consolas DISPARO
+TY 176 114 2 2 0 0 0 Consolas 
+MC 164 49 2 0 010
+FCJ
+TY 154 39 2 2 0 0 0 Consolas 
+TY 154 47 2 2 0 0 0 Consolas 9V
+MC 267 111 0 0 ey_libraries.refpnt0
+LI 252 82 254 82 0
+FCJ 0 0 3 1 0 1
+TY 249 78 2 2 0 0 0 Consolas 3
+TY 257 92 2 2 0 0 0 Consolas 
+LI 254 82 254 92 0
+LI 254 92 256 92 0
+FCJ 0 0 3 1 0 1
+TY 258 88 2 2 0 0 0 Consolas 5
+TY 259 102 2 2 0 0 0 Consolas 
+LI 256 102 254 102 0
+FCJ 0 0 3 2 0 1
+TY 258 98 2 2 0 0 0 Consolas 6
+TY 261 112 2 2 0 0 0 Consolas 
+LI 254 102 254 112 0
+LI 254 112 252 112 0
+MC 284 99 1 0 571
+FCJ
+TY 294 104 2 2 0 0 0 Consolas CÁPSULA
+TY 294 107 2 2 0 0 0 Consolas PIEZO
+LI 281 97 284 97 0
+LI 284 97 284 99 0
+FCJ 0 0 3 2 0 1
+TY 278 93 2 2 0 0 0 Consolas 4
+TY 289 107 2 2 0 0 0 Consolas 
+LI 284 124 284 132 0
+LI 284 132 254 132 0
+LI 254 127 254 112 0
+SA 254 112 0
+FCJ
+TY 248 108 2 2 0 0 0 Consolas 10
+TY 259 122 2 2 0 0 0 Consolas 
+LI 267 111 267 104 0
+FCJ 0 0 3 2 0 1
+TY 268 105 2 2 0 0 0 Consolas 7
+TY 272 121 2 2 0 0 0 Consolas 
+SA 254 82 0
+MC 201 122 0 0 ey_libraries.refpnt0
+MC 201 68 0 0 ey_libraries.refpnt0
+LI 227 107 225 107 0
+FCJ 0 0 3 2 0 1
+TY 229 103 2 2 0 0 0 Consolas 9
+TY 232 117 2 2 0 0 0 Consolas 
+LI 225 107 225 87 0
+LI 225 87 227 87 0
+FCJ 0 0 3 2 0 1
+TY 229 83 2 2 0 0 0 Consolas 2
+TY 230 97 2 2 0 0 0 Consolas 
+SA 225 97 0
+LI 220 97 225 97 0
+FCJ 0 0 3 2 0 1
+TY 217 93 2 2 0 0 0 Consolas 11
+TY 225 107 2 2 0 0 0 Consolas 
+MC 214 117 1 0 ey_libraries.pascap0
+FCJ
+TY 208 130 2 2 0 0 0 Consolas 
+TY 208 109 2 2 0 0 0 Consolas 15nF
+MC 214 63 1 0 ey_libraries.pascap0
+FCJ
+TY 209 73 2 2 0 0 0 Consolas 
+TY 207 55 2 2 0 0 0 Consolas 100nF
+MC 279 54 0 0 ey_libraries.pascap0
+FCJ
+TY 289 59 2 2 0 0 0 Consolas 
+TY 281 51 2 2 0 0 0 Consolas 100nF
+LI 219 117 228 117 0
+FCJ 0 0 3 2 0 1
+TY 229 113 2 2 0 0 0 Consolas 8
+TY 226 127 2 2 0 0 0 Consolas 
+LI 219 132 218 132 0
+LI 218 132 218 117 0
+SA 218 117 0
+LI 204 117 201 117 0
+LI 201 117 201 122 0
+LI 244 137 244 139 0
+LI 244 139 254 139 0
+LI 254 139 254 127 0
+SA 254 132 0
+LI 254 82 254 63 0
+MC 237 62 0 0 u_schem.153
+LI 237 75 237 49 0
+FCJ 0 0 3 2 0 1
+TY 238 71 2 2 0 0 0 Consolas 14
+TY 242 85 2 2 0 0 0 Consolas 
+LI 227 77 225 77 0
+FCJ 0 0 3 2 0 1
+TY 229 73 2 2 0 0 0 Consolas 1
+TY 232 87 2 2 0 0 0 Consolas 
+LI 225 77 225 63 0
+LI 225 63 235 63 0
+LI 219 63 225 63 0
+SA 225 63 0
+LI 201 63 201 68 0
+LI 204 63 201 63 0
+TY 179 135 4 3 0 0 0 Consolas IC1: CD4093
+MC 267 54 0 0 ey_libraries.pascap1
+FCJ
+TY 255 51 2 2 0 0 0 Consolas 100µF
+TY 255 54 2 2 0 0 0 Consolas 16V
+LI 279 49 238 49 0
+LI 238 49 233 49 0
+SA 237 49 0
+SA 267 49 0
+MC 279 69 0 0 ey_libraries.refpnt0
+LI 279 66 267 66 0
+LI 267 64 267 66 0
+LI 279 69 279 64 0
+SA 279 66 0
+LI 195 92 193 92 0
+LI 193 92 193 49 0
+FCJ 0 0 3 2 0 1
+TY 195 88 2 2 0 0 0 Consolas 13
+TY 198 102 2 2 0 0 0 Consolas 
+LI 193 49 233 49 0
+SA 193 49 0
+MC 170 69 0 0 ey_libraries.pascap1
+FCJ
+TY 159 65 2 2 0 0 0 Consolas 22µF
+TY 159 69 2 2 0 0 0 Consolas 16V
+LI 195 102 170 102 0
+FCJ 0 0 3 1 0 1
+TY 195 98 2 2 0 0 0 Consolas 12
+TY 200 112 2 2 0 0 0 Consolas 
+LI 170 102 170 79 0
+LI 183 80 183 102 0
+LI 183 65 183 49 0
+LI 183 49 193 49 0
+LI 170 64 170 49 0
+LI 170 49 183 49 0
+LI 164 49 170 49 0
+SA 170 49 0
+SA 183 49 0
+SA 183 102 0
+SA 170 102 0
+MC 170 125 0 0 ey_libraries.refpnt0
+LI 170 125 170 121 0
+LI 170 107 170 102 0

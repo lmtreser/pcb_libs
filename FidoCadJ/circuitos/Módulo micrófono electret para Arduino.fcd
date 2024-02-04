@@ -1,0 +1,34 @@
+[FIDOCAD]
+FJC B 0.5
+MC 135 57 0 0 ey_libraries.pasres0
+FCJ
+TY 145 62 2 2 0 0 0 Consolas 
+TY 133 51 2 2 0 0 0 Consolas 150Ω
+MC 149 45 1 0 ey_libraries.pasres5
+FCJ
+TY 154 43 2 2 0 0 0 Consolas PRESET
+TY 154 46 2 2 0 0 0 Consolas 100kΩ
+MC 122 80 0 0 ey_libraries.refpnt0
+MC 161 57 2 0 ey_libraries.refpnt1
+FCJ
+TY 158 59 2 2 0 0 0 Consolas AL PIN DEL
+TY 158 62 2 2 0 0 0 Consolas MICROCONTROLADOR
+MC 149 33 3 0 010
+FCJ
+TY 154 23 2 2 0 0 0 Consolas 
+TY 153 26 2 2 0 0 0 Consolas 5V
+LI 122 81 122 74 0
+LI 122 59 122 57 0
+LI 122 57 130 57 0
+LI 144 57 157 57 0
+LI 149 55 149 57 0
+SA 149 57 0
+LI 149 35 149 33 0
+LI 144 45 142 45 0
+LI 142 45 142 36 0
+LI 142 36 149 36 0
+SA 149 36 0
+MC 119 57 0 0 u_schem.147
+FCJ
+TY 129 64 2 2 0 0 0 Consolas MICRÓFONO
+TY 129 67 2 2 0 0 0 Consolas ELECTRET

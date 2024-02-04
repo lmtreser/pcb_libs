@@ -1,0 +1,66 @@
+[FIDOCAD]
+FJC B 0.5
+MC 97 55 1 0 ey_libraries.pasres0
+FCJ
+TY 92 65 2 2 0 0 0 Consolas 
+TY 101 56 2 2 0 0 0 Consolas 27kΩ
+MC 106 74 0 0 ey_libraries.pasres0
+FCJ
+TY 116 79 2 2 0 0 0 Consolas 
+TY 105 68 2 2 0 0 0 Consolas 10kΩ
+MC 119 83 1 0 ey_libraries.pasres0
+FCJ
+TY 114 93 2 2 0 0 0 Consolas 
+TY 122 84 2 2 0 0 0 Consolas 10kΩ
+MC 97 83 0 0 ey_libraries.pascap1
+FCJ
+TY 103 82 2 2 0 0 0 Consolas 470µF
+TY 103 85 2 2 0 0 0 Consolas 35V
+MC 135 55 3 0 ey_libraries.diddid0
+FCJ
+TY 120 51 2 2 0 0 0 Consolas 1N4007
+TY 145 45 2 2 0 0 0 Consolas 
+MC 97 98 0 0 ey_libraries.refpnt0
+MC 142 42 0 0 ihram.relspdt
+FCJ
+TY 144 36 2 2 0 0 0 Consolas RELÉ
+TY 152 52 2 2 0 0 0 Consolas 
+MC 120 74 0 0 u_schem.45
+FCJ
+TY 139 68 2 2 0 0 0 Consolas BC548
+TY 130 84 2 2 0 0 0 Consolas 
+MC 97 40 3 0 u_schem.137
+FCJ
+TY 100 34 2 2 0 0 0 Consolas 15V
+TY 107 30 2 2 0 0 0 Consolas 
+LI 97 78 97 65 0
+SA 97 74 0
+LI 116 74 120 74 0
+LI 119 78 119 74 0
+SA 119 74 0
+LI 97 98 97 93 0
+LI 135 84 135 96 0
+LI 135 96 97 96 0
+LI 119 93 119 96 0
+SA 119 96 0
+SA 97 96 0
+LI 135 64 135 60 0
+LI 142 62 135 62 0
+LI 135 45 135 42 0
+LI 135 42 142 42 0
+SA 135 62 0
+SA 135 42 0
+LI 134 42 97 42 0
+LI 97 40 97 51 0
+SA 97 42 0
+LI 101 74 97 74 0
+MC 166 74 1 0 u_schem.178
+FCJ
+TY 152 78 2 2 0 0 0 Consolas SALIDA
+TY 176 84 2 2 0 0 0 Consolas 
+LI 162 67 162 74 0
+LI 157 67 157 74 0
+LI 152 67 152 74 0
+TY 141 86 4 3 0 0 0 Consolas RETARDO
+TY 141 91 4 3 0 0 0 Consolas ON: 2 SEGUNDOS
+TY 141 95 4 3 0 0 0 Consolas OFF: 0.5 SEGUNDOS
