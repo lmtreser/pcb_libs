@@ -10,7 +10,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 - /FidoCadJ/**circuitos**: circuitos varios dibujados con FidoCadJ.
 - /FidoCadJ/**ejemplos**: ejemplos varios dibujados con FidoCadJ.
 - /FidoCadJ/**libs**: bibliotecas para FidoCadJ.
-- /Fritzing/
+- /Fritzing/**parts**: bibliotecas para Fritzing.
 
 ## Recursos
 
@@ -28,6 +28,8 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 - Otros Recursos
   - [FidoCadJ](https://darwinne.github.io/FidoCadJ/)
   - [Fritzing](https://fritzing.org/)
+  - [AdaFruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
+  - [Sparkfun Fritzing Parts](https://github.com/sparkfun/Fritzing_Parts)
 
 ## Licencia
 
