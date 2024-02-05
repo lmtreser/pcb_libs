@@ -19,7 +19,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk Legacy Software Versions](http://eagle.autodesk.com/eagle/software-versions/).
 
-![]()
+![](./docs/eagle.png)
 
 #### KiCad EDA
 
@@ -27,7 +27,7 @@ La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk 
 
 La última versión de KiCad se puede descargar desde el sitio oficial [KiCad EDA](https://www.kicad.org/).
 
-![]()
+![](./docs/kicad.png)
 
 #### Fritzing
 
@@ -35,7 +35,7 @@ La última versión de KiCad se puede descargar desde el sitio oficial [KiCad ED
 
 La última versión de Fritzing se puede descargar desde el [sitio oficial](https://fritzing.org/download/).
 
-![]()
+![](./docs/fritzing.png)
 
 #### FidoCadJ
 
@@ -43,7 +43,7 @@ La última versión de Fritzing se puede descargar desde el [sitio oficial](http
 
 La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http://darwinne.github.io/FidoCadJ/index.html).
 
-![]()
+![](./docs/fidocadj.png)
 
 ## Recursos
 
@@ -71,9 +71,11 @@ La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http
   - [Sparkfun Fritzing Parts](https://github.com/sparkfun/Fritzing_Parts)
   - [Cómo crear componentes personalizados para Fritzing](https://www.automatismos-mdq.com.ar/blog/2020/04/como-crear-componentes-personalizados-para-fritzing.html)
 
-- Otros Recursos
+- FidoCadJ
   - [FidoCadJ](https://darwinne.github.io/FidoCadJ/)
   - [Editor gráfico FidoCadJ](https://www.automatismos-mdq.com.ar/blog/2020/06/editor-grafico-fidocadj.html)
+  
+- Otros Recursos
   - [Ngspice, open source spice simulator](https://ngspice.sourceforge.io/)
 
 ## Licencia
