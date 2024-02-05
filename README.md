@@ -13,24 +13,68 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 - `/FidoCadJ/libs` Bibliotecas para FidoCadJ.
 - `/Fritzing/parts` Bibliotecas para Fritzing.
 
+#### Autodesk EAGLE
+
+**EAGLE** (siglas de Easily Applicable Graphical Layout Editor) es un programa de diseño de diagramas y PCBs con autoenrutador famoso alrededor del mundo, debido a la gran cantidad de bibliotecas de componentes alrededor de la red. Autodesk Inc. adquirió a la empresa desarrolladora original, CadSoft Computer GmbH en 2016. [*Wikipedia*](https://es.m.wikipedia.org/wiki/EAGLE)
+
+La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk Legacy Software Versions](http://eagle.autodesk.com/eagle/software-versions/).
+
+![]()
+
+#### KiCad EDA
+
+**KiCad** es un paquete de software libre para la automatización del diseño electrónico (del inglés: Electronic Design Automation, EDA). Facilita el diseño de esquemáticos para circuitos electrónicos y su conversión a placa de circuito impreso. KiCad fue desarrollado originalmente por Jean-Pierre Charras. Cuenta con un entorno integrado para captura esquemática y de diseño de PCB. Existen herramientas dentro del software para crear una lista de materiales, ilustraciones, archivos Gerber y vistas 3D de la PCB y sus componentes. [*Wikipedia*](https://es.m.wikipedia.org/wiki/KiCad).
+
+La última versión de KiCad se puede descargar desde el sitio oficial [KiCad EDA](https://www.kicad.org/).
+
+![]()
+
+#### Fritzing
+
+**Fritzing** es un programa libre de automatización de diseño electrónico que busca ayudar a diseñadores y artistas para que puedan pasar de prototipos (usando, por ejemplo, placas de pruebas) a productos finales. Fritzing fue creado bajo los principios de Processing y Arduino, y permite a los diseñadores, artistas, investigadores y aficionados documentar sus prototipos basados en Arduino y crear esquemas de circuitos impresos para su posterior fabricación. Además, cuenta con un sitio web complementario que ayuda a compartir y discutir bosquejos y experiencias y a reducir los costos de fabricación. [*Wikipedia*](https://es.m.wikipedia.org/wiki/Fritzing).
+
+La última versión de Fritzing se puede descargar desde el [sitio oficial](https://fritzing.org/download/).
+
+![]()
+
+#### FidoCadJ
+
+**FidoCadJ** es un editor gráfico vectorial para GNU/Linux, MacOSX, Windows y Android creado por el profesor Davide Bucci. Se distribuye bajo licencia GPL3 de forma gratuita, es muy liviano y se puede utilizar con distintos fines. Posee una gran colección de símbolos y footprints para electrónica y electricidad.
+
+La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http://darwinne.github.io/FidoCadJ/index.html).
+
+![]()
+
 ## Recursos
 
-- Bibliotecas EAGLE
+- Autodesk EAGLE
   - [SparkFun Electronics Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
   - [Adafruit Eagle Library](https://github.com/adafruit/Adafruit-Eagle-Library)
   - [UltraLibrarian](https://www.ultralibrarian.com/cad-vendors/eagle/)
   - [SnapMagic EAGLE](https://www.snapeda.com/eagle/)
   - [Autodesk Library.io](https://library.io/)
-- Bibliotecas KiCad
+  - [Logos, dibujos y simbolos en EAGLE](https://www.automatismos-mdq.com.ar/blog/2011/07/logos-dibujos-y-simbolos-en-eagle.html)
+
+- KiCad EDA
   - [KiCad Libraries](https://kicad.github.io/)
   - [SparkFun Electronics KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries)
   - [SnapMagic KiCad](https://www.snapeda.com/kicad/)
   - [Digi-Key KiCad Library](https://github.com/Digi-Key/digikey-kicad-library)
-- Otros Recursos
-  - [FidoCadJ](https://darwinne.github.io/FidoCadJ/)
+  - [Performing A Circuit Simulation In KiCad](https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/)
+  - [KiCanvas](https://blog.thea.codes/introducing-kicanvas/)
+  - [CI/CD with KiCad and Gitlab](https://sschueller.github.io/posts/ci-cd-with-kicad-and-gitlab/)
+  - [Pinion — Nice-looking interactive diagrams for KiCAD PCBs](https://yaqwsx.github.io/Pinion/)
+
+- Fritzing
   - [Fritzing](https://fritzing.org/)
   - [AdaFruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
   - [Sparkfun Fritzing Parts](https://github.com/sparkfun/Fritzing_Parts)
+  - [Cómo crear componentes personalizados para Fritzing](https://www.automatismos-mdq.com.ar/blog/2020/04/como-crear-componentes-personalizados-para-fritzing.html)
+
+- Otros Recursos
+  - [FidoCadJ](https://darwinne.github.io/FidoCadJ/)
+  - [Editor gráfico FidoCadJ](https://www.automatismos-mdq.com.ar/blog/2020/06/editor-grafico-fidocadj.html)
+  - [Ngspice, open source spice simulator](https://ngspice.sourceforge.io/)
 
 ## Licencia
 
