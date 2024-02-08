@@ -1,3 +1,9 @@
+---
+title: "2_esquematicos"
+date: 2024-02-08T20:16:59-03:00
+draft: true
+---
+
 # Apuntes y Generalidades sobre Diseño Electrónico por Computadora
 
 ## Circuitos Esquemáticos

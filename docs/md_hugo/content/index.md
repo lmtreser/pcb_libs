@@ -1,6 +1,6 @@
 # Apuntes y Generalidades sobre Diseño Electrónico por Computadora
 
-1. [**Algunas definiciones**](./1_definiciones.md)
+1. [**Algunas definiciones**](./pages/1_definiciones.md)
 1.1. CAD electrónico
 1.2. CAE electrónico
 1.3. CAM electrónico

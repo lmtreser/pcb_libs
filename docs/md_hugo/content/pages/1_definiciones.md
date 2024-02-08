@@ -1,3 +1,9 @@
+---
+title: "1_definiciones"
+date: 2024-02-08T20:16:36-03:00
+draft: true
+---
+
 # Apuntes y Generalidades sobre Diseño Electrónico por Computadora
 
 ## Algunas definiciones

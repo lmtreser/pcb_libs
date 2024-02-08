@@ -1,3 +1,9 @@
+---
+title: "4_montaje"
+date: 2024-02-08T20:17:17-03:00
+draft: true
+---
+
 # Apuntes y Generalidades sobre Diseño Electrónico por Computadora
 
 ## Montaje Final De Las Placas

@@ -1,3 +1,9 @@
+---
+title: "3_pcb"
+date: 2024-02-08T20:17:09-03:00
+draft: true
+---
+
 # Apuntes y Generalidades sobre Diseño Electrónico por Computadora
 
 ## Placas De Circuito Impreso (PCB)
