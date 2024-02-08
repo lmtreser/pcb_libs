@@ -19,7 +19,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk Legacy Software Versions](http://eagle.autodesk.com/eagle/software-versions/).
 
-![](./docs/eagle.png)
+![](./docs/screenshots/eagle.png)
 
 #### KiCad EDA
 
@@ -27,7 +27,7 @@ La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk 
 
 La última versión de KiCad se puede descargar desde el sitio oficial [KiCad EDA](https://www.kicad.org/).
 
-![](./docs/kicad.png)
+![](./docs/screenshots/kicad.png)
 
 #### Fritzing
 
@@ -35,7 +35,7 @@ La última versión de KiCad se puede descargar desde el sitio oficial [KiCad ED
 
 La última versión de Fritzing se puede descargar desde el [sitio oficial](https://fritzing.org/download/).
 
-![](./docs/fritzing.png)
+![](./docs/screenshots/fritzing.png)
 
 #### FidoCadJ
 
@@ -43,11 +43,14 @@ La última versión de Fritzing se puede descargar desde el [sitio oficial](http
 
 La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http://darwinne.github.io/FidoCadJ/index.html).
 
-![](./docs/fidocadj.png)
+![](./docs/screenshots/fidocadj.png)
 
 ## Recursos
 
 - Autodesk EAGLE
+  - [Vídeo Tutoriales EAGLE v7](https://drive.google.com/drive/folders/1XGSJn0cd9M4ImH0A7ExIwCd90hmlcn3g)
+  - [Vídeo Tutoriales EAGLE v8](https://drive.google.com/drive/folders/1uMNlElwInSr0HR45rr7a-xuvfVmWcQN1)
+  - [Vídeo Tutoriales EAGLE v9](https://drive.google.com/drive/folders/1IOiAV6nzpNvacRHGGPwNLOrX68K4Gx2w)
   - [SparkFun Electronics Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
   - [Adafruit Eagle Library](https://github.com/adafruit/Adafruit-Eagle-Library)
   - [UltraLibrarian](https://www.ultralibrarian.com/cad-vendors/eagle/)
@@ -76,6 +79,7 @@ La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http
   - [Editor gráfico FidoCadJ](https://www.automatismos-mdq.com.ar/blog/2020/06/editor-grafico-fidocadj.html)
   
 - Otros Recursos
+  - [Compendio de ánexos técnicos](https://drive.google.com/drive/folders/1JNl1bw6pRH7ckWr4CoAMkLXcyVetzXd8)
   - [Ngspice, open source spice simulator](https://ngspice.sourceforge.io/)
 
 ## Licencia
