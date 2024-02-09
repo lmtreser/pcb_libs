@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apuntes sobre Diseño Electrónico</title>
+    <link>https://lmtreser.github.io/pcb_libs/</link>
+    <description>Recent content on Apuntes sobre Diseño Electrónico</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 09 Feb 2024 10:49:34 -0300</lastBuildDate><atom:link href="https://lmtreser.github.io/pcb_libs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apuntes y Generalidades sobre Diseño Electrónico por Computadora</title>
+      <link>https://lmtreser.github.io/pcb_libs/pages/contenidos/</link>
+      <pubDate>Fri, 09 Feb 2024 10:49:30 -0300</pubDate>
+      
+      <guid>https://lmtreser.github.io/pcb_libs/pages/contenidos/</guid>
+      <description>Contenidos Algunas definiciones. CAD electrónico. CAE electrónico. CAM electrónico. Detalle del proceso para obtención del prototipo.
+Circuitos Esquemáticos. Introducción. Cajetines (Title Block). Plegado de planos. Elementos de un esquemático. Etiquetas (label). Uniones. Capacitores de bypass en circuitos digitales. Pines de los componentes. Ejemplo de circuito esquemático terminado.
+Placas de Circuito Impreso (PCB). Introducción. Unidades de medida. Identificación y correspondencia de pines. Taladros de fijación. Definir valores globales de espaciado. Preparar la placa para el posicionado.</description>
+    </item>
+    
+    <item>
+      <title>Introducción al Diseño Electrónico por Computadora</title>
+      <link>https://lmtreser.github.io/pcb_libs/pages/definiciones/</link>
+      <pubDate>Fri, 09 Feb 2024 10:49:31 -0300</pubDate>
+      
+      <guid>https://lmtreser.github.io/pcb_libs/pages/definiciones/</guid>
+      <description>Algunas definiciones La automatización de los procesos industriales a lo largo de los años ha dado lugar a un avance espectacular de la industria. Todo ello ha sido posible gracias a una serie de factores entre los que cabe destacar las nuevas tecnologías, la generalización del uso de las computadoras y, sobre todo, el control y la regulación de sistemas.
+La incorporación de las computadoras en la producción es, sin lugar a dudas, el elemento puente que ha permitido lograr la automatización integral de los procesos industriales.</description>
+    </item>
+    
+    <item>
+      <title>Circuitos Esquemáticos</title>
+      <link>https://lmtreser.github.io/pcb_libs/pages/esquematicos/</link>
+      <pubDate>Fri, 09 Feb 2024 10:49:32 -0300</pubDate>
+      
+      <guid>https://lmtreser.github.io/pcb_libs/pages/esquematicos/</guid>
+      <description>Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.
+Diseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado.</description>
+    </item>
+    
+    <item>
+      <title>Placas de Circuito Impreso (PCB)</title>
+      <link>https://lmtreser.github.io/pcb_libs/pages/pcb/</link>
+      <pubDate>Fri, 09 Feb 2024 10:49:33 -0300</pubDate>
+      
+      <guid>https://lmtreser.github.io/pcb_libs/pages/pcb/</guid>
+      <description>Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.
+Podemos así clasificar las PCB atendiendo a distintos criterios:
+El sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles.</description>
+    </item>
+    
+    <item>
+      <title>Montaje Final de las Placas</title>
+      <link>https://lmtreser.github.io/pcb_libs/pages/montaje/</link>
+      <pubDate>Fri, 09 Feb 2024 10:49:34 -0300</pubDate>
+      
+      <guid>https://lmtreser.github.io/pcb_libs/pages/montaje/</guid>
+      <description>Inserción de componentes Las tareas de insertar los componentes y soldarlos se llevarán a cabo más fácilmente si se dispone de un bastidor de trabajo para sujetar PCBs durante el montaje, pues lleva una tapa articulada forrada de gomaespuma para inmovilizar los componentes. En su defecto vale un tornillo de banco abatible o un pequeño robot.
+Antes de realizar la inserción de componentes en los orificios de la tarjeta procederemos al preformado de sus terminales.</description>
+    </item>
+    
+  </channel>
+</rss>

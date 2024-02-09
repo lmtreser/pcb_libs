@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Circuitos Esquemáticos | Apuntes sobre Diseño Electrónico</title>
+<meta name="keywords" content="">
+<meta name="description" content="Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.
+Diseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado.">
+<meta name="author" content="">
+<link rel="canonical" href="https://lmtreser.github.io/pcb_libs/pages/esquematicos/">
+<link crossorigin="anonymous" href="/pcb_libs/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/pcb_libs/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://lmtreser.github.io/pcb_libs/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://lmtreser.github.io/pcb_libs/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lmtreser.github.io/pcb_libs/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://lmtreser.github.io/pcb_libs/apple-touch-icon.png">
+<link rel="mask-icon" href="https://lmtreser.github.io/pcb_libs/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Circuitos Esquemáticos" />
+<meta property="og:description" content="Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.
+Diseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmtreser.github.io/pcb_libs/pages/esquematicos/" /><meta property="article:section" content="pages" />
+<meta property="article:published_time" content="2024-02-09T10:49:32-03:00" />
+<meta property="article:modified_time" content="2024-02-09T10:49:32-03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Circuitos Esquemáticos"/>
+<meta name="twitter:description" content="Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.
+Diseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Pages",
+      "item": "https://lmtreser.github.io/pcb_libs/pages/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Circuitos Esquemáticos",
+      "item": "https://lmtreser.github.io/pcb_libs/pages/esquematicos/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Circuitos Esquemáticos",
+  "name": "Circuitos Esquemáticos",
+  "description": "Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.\nDiseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.\nDiseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado.\nDiseño plano. Consta de varias páginas de esquema contenidas en una única carpeta, con conexión horizontal, todas con el mismo nivel de importancia y relacionadas entre sí a través de unos conectores especiales llamados de fuera de página. Se aconseja usar esta estructura para diseños con 10 páginas como máximo.\nDiseño jerárquico. Consta de varias páginas de esquema, con distinto nivel de importancia según una conexión vertical. La página principal o raíz, cuyo icono se identifica con una barra (/), contiene en su interior otra u otras páginas representadas mediante los llamados bloques jerárquicos, los cuales, a su vez, pueden alojar nuevas páginas, conformando una estructura de árbol. Tiene la ventaja de dar una visión modular, tipo diagrama en bloques, que facilita mucho el trabajo.\nLas jerarquías pueden ser SIMPLES o COMPLEJAS, siendo su diferencia el que estas últimas contienen varios bloques jerárquicos que corresponden a una misma página de esquema, de modo que la circuitería repetida sólo hay que dibujarla una vez, mientras que en una jerarquía simple una misma página de esquema no se utiliza varias veces.\nDiseño jerárquico simple: el esquema raíz (o padre) tiene varios bloques jerárquicos (o hijos) todos diferentes. A su vez, cada hijo puede tener otros hijos, que serán los nietos del padre y así sucesivamente, conformando una estructura de árbol genealógico.\nDiseño jerárquico complejo: El esquema padre también tiene varios hijos, con la particularidad de que al menos dos de ellos tienen que ser iguales, es decir, gemelos. En el ejemplo, ambas jerarquías tienen en realidad el mismo número de planos (tres), pero en la compleja de la derecha, solo hay que dibujar dos.\nCajetines (Title Block) Todo plano lleva en su borde inferior derecho un cajetín, casillero o rótulo destinado a incluir información relacionada con lo dibujado, como por ejemplo:\nTítulo del esquema Localización Escala Características de materiales, componentes, normas, etc. Empresa, escuela o laboratorio Departamento, grupo, etc. Autor(es), fecha y revisión Número total de planos Según la norma UNE 1026, el cajetín se colocará a una distancia de 5 mm de los bordes de la hoja de papel, la cual dispondrá además de un margen izquierdo de 20 mm para el cosido y archivado del plano.\nPlegado de planos En la figura vemos cómo deben doblarse los distintos formatos de planos, hasta quedar todos reducidos al tamaño A4, y así poder archivarlos junto con el resto de la documentación del proyecto.\nElementos de un esquemático Etiquetas (label) Las etiquetas permiten conectar eléctricamente distintos puntos de la página del esquema sin necesidad de trazar los hilos, sin más que asignarles el mismo nombre o Alias. Es decir, se da un nombre a la conexión (net) y todos los hilos que compartan esa misma etiqueta, automáticamente, quedan incluidos en ella.\nDada la gran complejidad de algunos diseños electrónicos, este recurso posibilita el no tener que dibujar todos los cables entre componentes, evitando así aglomeraciones o esquemas con aspecto de tela de araña que resultan ilegibles. Este sistema es especialmente apropiado cuando las partes a unir estén muy alejadas entre sí. Por ejemplo, se ha empleado en la siguiente figura, donde los dos puntos marcados con el alias IN estarán eléctricamente unidos.\nUniones Se deberá colocar puntos de unión en las intersecciones de los hilos donde deba existir contacto eléctrico.\nCapacitores de bypass en circuitos digitales Al trabajar en conmutación los circuitos digitales no tienen un consumo constante de corriente de la fuente de alimentación, lo que puede provocar caídas de tensión perjudiciales para su correcto funcionamiento. Es necesario, por tanto, desacoplar la fuente de alimentación colocando un capacitor llamado de “bypass” en las proximidades de cada circuito integrado.\nAl capturar un esquema con este tipo de circuito integrado, los condensadores de bypass o desacoplo se suelen dibujar aparte para no complicarlo en exceso, todos en paralelo entre el positivo y masa de la alimentación. En la figura observamos que también hemos colocado texto indicando el chip y los pines asociados a cada capacitor.\nEn el diseño de la PCB, posicionemos los componentes en la placa y colocaremos los condensadores citados cerca de cada integrado. Luego trazaremos las pistas de conexión con los pads de alimentación, tal y como se ve en la figura.\nDespués del trazado final de pistas veremos si es necesario modificar la posición o el cableado de alguno de ellos, para el caso de suponer un obstáculo insalvable en el trazado de otras conexiones. Cuando el montaje lo permita, se puede colocar un condensador SMD de bypass debajo del circuito integrado, o bien, adquirir un zócalo que lo lleve incorporado, lo cual simplifica el trazado.\nEn otras ocasiones, en particular cuando predominan en la placa circuitos integrados digitales dispuestos matricialmente, tal es el caso de los bancos de memoria, es interesante la disposición de pistas de alimentación mostrada en la figura.\nPines de los componentes Los pines de los circuitos integrados digitales generalmente se representan en el editor, según sean activos por flanco o por nivel, de la siguiente manera:\nClock. Activo al flanco de subida. Dot. Activo a nivel bajo. Dot-clock. Activo al flanco de bajada. Zero length. Con cero unidades de rejilla. Line. Activo a nivel alto. Con una longitud de tres unidades de rejilla. Short. Activo a nivel alto. Con una longitud de una unidad de rejilla Símbolos IEEE:\nRespecto al tipo o carácter eléctrico, los pines pueden ser:\n3-State. El triestado posee tres estados lógicos posibles: bajo (cero lógico), alto (uno lógico) y alta impedancia (circuito abierto). Bidirectional. Actúa como entrada y como salida. Input. Entrada o receptor de señal. Open collector. Colector abierto, que omite el pull-up del colector. Open emitter. Emisor abierto, que omite el pull-down del emisor. Output. Salida o emisor de señal. Passive. Pasivo, no tiene fuente de energía. Power. De alimentación, que recibirá el positivo o masa. Los pines de alimentación no visibles se conectan por medio de etiquetas (alias) que llevan su nombre.\nEjemplo de circuito esquemático terminado ",
+  "wordCount" : "1063",
+  "inLanguage": "en",
+  "datePublished": "2024-02-09T10:49:32-03:00",
+  "dateModified": "2024-02-09T10:49:32-03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lmtreser.github.io/pcb_libs/pages/esquematicos/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Apuntes sobre Diseño Electrónico",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lmtreser.github.io/pcb_libs/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://lmtreser.github.io/pcb_libs/" accesskey="h" title="Apuntes sobre Diseño Electrónico (Alt + H)">Apuntes sobre Diseño Electrónico</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://github.com/lmtreser/pcb_libs" title="Biblioteca PCB Libs">
+                    <span>Biblioteca PCB Libs</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/lmtreser/hugo-static-sites/tree/main/pcb_libs" title="Código fuente">
+                    <span>Código fuente</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Circuitos Esquemáticos
+    </h1>
+    <div class="post-meta"><span title='2024-02-09 10:49:32 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;5 min
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introducci%c3%b3n" aria-label="Introducción">Introducción</a></li>
+                <li>
+                    <a href="#cajetines-title-block" aria-label="Cajetines (Title Block)">Cajetines (Title Block)</a></li>
+                <li>
+                    <a href="#plegado-de-planos" aria-label="Plegado de planos">Plegado de planos</a></li>
+                <li>
+                    <a href="#elementos-de-un-esquem%c3%a1tico" aria-label="Elementos de un esquemático">Elementos de un esquemático</a></li>
+                <li>
+                    <a href="#etiquetas-label" aria-label="Etiquetas (label)">Etiquetas (label)</a></li>
+                <li>
+                    <a href="#uniones" aria-label="Uniones">Uniones</a></li>
+                <li>
+                    <a href="#capacitores-de-bypass-en-circuitos-digitales" aria-label="Capacitores de bypass en circuitos digitales">Capacitores de bypass en circuitos digitales</a></li>
+                <li>
+                    <a href="#pines-de-los-componentes" aria-label="Pines de los componentes">Pines de los componentes</a></li>
+                <li>
+                    <a href="#ejemplo-de-circuito-esquem%c3%a1tico-terminado" aria-label="Ejemplo de circuito esquemático terminado">Ejemplo de circuito esquemático terminado</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introducción">Introducción<a hidden class="anchor" aria-hidden="true" href="#introducción">#</a></h2>
+<p>Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.</p>
+<p><em>Diseño simple.</em> Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado.</p>
+<p><img loading="lazy" src="../img/15af23ba.png#center" alt=""  />
+</p>
+<p><em>Diseño plano.</em> Consta de varias páginas de esquema contenidas en una única carpeta, con conexión horizontal, todas con el mismo nivel de importancia y relacionadas entre sí a través de unos conectores especiales llamados de fuera de página. Se aconseja usar esta estructura para diseños con 10 páginas como máximo.</p>
+<p><img loading="lazy" src="../img/b5531402.png#center" alt=""  />
+</p>
+<p><em>Diseño jerárquico.</em> Consta de varias páginas de esquema, con distinto nivel de importancia según una conexión vertical. La página principal o raíz, cuyo icono se identifica con una barra (/), contiene en su interior otra u otras páginas representadas mediante los llamados bloques jerárquicos, los cuales, a su vez, pueden alojar nuevas páginas, conformando una estructura de árbol. Tiene la ventaja de dar una visión modular, tipo diagrama en bloques, que facilita mucho el trabajo.</p>
+<p><img loading="lazy" src="../img/9cb8aa65.png#center" alt=""  />
+</p>
+<p>Las jerarquías pueden ser SIMPLES o COMPLEJAS, siendo su diferencia el que estas últimas contienen varios bloques jerárquicos que corresponden a una misma página de esquema, de modo que la circuitería repetida sólo hay que dibujarla una vez, mientras que en una jerarquía simple una misma página de esquema no se utiliza varias veces.</p>
+<ul>
+<li>
+<p>Diseño jerárquico simple: el esquema raíz (o padre) tiene varios bloques jerárquicos (o hijos) todos diferentes. A su vez, cada hijo puede tener otros hijos, que serán los nietos del padre y así sucesivamente, conformando una estructura de árbol genealógico.</p>
+</li>
+<li>
+<p>Diseño jerárquico complejo: El esquema padre también tiene varios hijos, con la particularidad de que al menos dos de ellos tienen que ser iguales, es decir, gemelos. En el ejemplo, ambas jerarquías tienen en realidad el mismo número de planos (tres), pero en la compleja de la derecha, solo hay que dibujar dos.</p>
+</li>
+</ul>
+<p><img loading="lazy" src="../img/613d9dd6.png#center" alt=""  />
+</p>
+<h2 id="cajetines-title-block">Cajetines (Title Block)<a hidden class="anchor" aria-hidden="true" href="#cajetines-title-block">#</a></h2>
+<p>Todo plano lleva en su borde inferior derecho un cajetín, casillero o rótulo destinado a incluir información relacionada con lo dibujado, como por ejemplo:</p>
+<ul>
+<li>Título del esquema</li>
+<li>Localización</li>
+<li>Escala</li>
+<li>Características de materiales, componentes, normas, etc.</li>
+<li>Empresa, escuela o laboratorio</li>
+<li>Departamento, grupo, etc.</li>
+<li>Autor(es), fecha y revisión</li>
+<li>Número total de planos</li>
+</ul>
+<p>Según la norma UNE 1026, el cajetín se colocará a una distancia de 5 mm de los bordes de la hoja de papel, la cual dispondrá además de un margen izquierdo de 20 mm para el cosido y archivado del plano.</p>
+<p><img loading="lazy" src="../img/2ac71127.png#center" alt=""  />
+</p>
+<h2 id="plegado-de-planos">Plegado de planos<a hidden class="anchor" aria-hidden="true" href="#plegado-de-planos">#</a></h2>
+<p>En la figura vemos cómo deben doblarse los distintos formatos de planos, hasta quedar todos reducidos al tamaño A4, y así poder archivarlos junto con el resto de la documentación del proyecto.</p>
+<p><img loading="lazy" src="../img/929a43ab.png#center" alt=""  />
+</p>
+<h2 id="elementos-de-un-esquemático">Elementos de un esquemático<a hidden class="anchor" aria-hidden="true" href="#elementos-de-un-esquemático">#</a></h2>
+<p><img loading="lazy" src="../img/a861c43.png#center" alt=""  />
+</p>
+<h2 id="etiquetas-label">Etiquetas (label)<a hidden class="anchor" aria-hidden="true" href="#etiquetas-label">#</a></h2>
+<p>Las etiquetas permiten conectar eléctricamente distintos puntos de la página del esquema sin necesidad de trazar los hilos, sin más que asignarles el mismo nombre o Alias. Es decir, se da un nombre a la conexión (net) y todos los hilos que compartan esa misma etiqueta, automáticamente, quedan incluidos en ella.</p>
+<p><img loading="lazy" src="../img/148f7cad.png#center" alt=""  />
+</p>
+<p>Dada la gran complejidad de algunos diseños electrónicos, este recurso posibilita el no tener que dibujar todos los cables entre componentes, evitando así aglomeraciones o esquemas con aspecto de tela de araña que resultan ilegibles. Este sistema es especialmente apropiado cuando las partes a unir estén muy alejadas entre sí. Por ejemplo, se ha empleado en la siguiente figura, donde los dos puntos marcados con el alias IN estarán eléctricamente unidos.</p>
+<h2 id="uniones">Uniones<a hidden class="anchor" aria-hidden="true" href="#uniones">#</a></h2>
+<p>Se deberá colocar puntos de unión en las intersecciones de los hilos donde deba existir contacto eléctrico.</p>
+<p><img loading="lazy" src="../img/fdfff71f.png#center" alt=""  />
+</p>
+<h2 id="capacitores-de-bypass-en-circuitos-digitales">Capacitores de bypass en circuitos digitales<a hidden class="anchor" aria-hidden="true" href="#capacitores-de-bypass-en-circuitos-digitales">#</a></h2>
+<p>Al trabajar en conmutación los circuitos digitales no tienen un consumo constante de corriente de la fuente de alimentación, lo que puede provocar caídas de tensión perjudiciales para su correcto funcionamiento. Es necesario, por tanto, desacoplar la fuente de alimentación colocando un capacitor llamado de “bypass” en las proximidades de cada circuito integrado.</p>
+<p>Al capturar un esquema con este tipo de circuito integrado, los condensadores de bypass o desacoplo se suelen dibujar aparte para no complicarlo en exceso, todos en paralelo entre el positivo y masa de la alimentación. En la figura observamos que también hemos colocado texto indicando el chip y los pines asociados a cada capacitor.</p>
+<p><img loading="lazy" src="../img/623b075e.png#center" alt=""  />
+</p>
+<p>En el diseño de la PCB, posicionemos los componentes en la placa y colocaremos los condensadores citados cerca de cada integrado. Luego trazaremos las pistas de conexión con los pads de alimentación, tal y como se ve en la figura.</p>
+<p><img loading="lazy" src="../img/22a06d1c.png#center" alt=""  />
+</p>
+<p>Después del trazado final de pistas veremos si es necesario modificar la posición o el cableado de alguno de ellos, para el caso de suponer un obstáculo insalvable en el trazado de otras conexiones. Cuando el montaje lo permita, se puede colocar un condensador SMD de bypass debajo del circuito integrado, o bien, adquirir un zócalo que lo lleve incorporado, lo cual simplifica el trazado.</p>
+<p><img loading="lazy" src="../img/b230ec6c.png#center" alt=""  />
+</p>
+<p>En otras ocasiones, en particular cuando predominan en la placa circuitos integrados digitales dispuestos matricialmente, tal es el caso de los bancos de memoria, es interesante la disposición de pistas de alimentación mostrada en la figura.</p>
+<p><img loading="lazy" src="../img/82b9db0e.png#center" alt=""  />
+</p>
+<h2 id="pines-de-los-componentes">Pines de los componentes<a hidden class="anchor" aria-hidden="true" href="#pines-de-los-componentes">#</a></h2>
+<p>Los pines de los circuitos integrados digitales generalmente se representan en el editor, según sean activos por flanco o por nivel, de la siguiente manera:</p>
+<ul>
+<li>Clock. Activo al flanco de subida.</li>
+<li>Dot. Activo a nivel bajo.</li>
+<li>Dot-clock. Activo al flanco de bajada.</li>
+<li>Zero length. Con cero unidades de rejilla.</li>
+<li>Line. Activo a nivel alto. Con una longitud de tres unidades de rejilla.</li>
+<li>Short. Activo a nivel alto. Con una longitud de una unidad de rejilla</li>
+</ul>
+<p><img loading="lazy" src="../img/3d45e8d5.png#center" alt=""  />
+</p>
+<p>Símbolos IEEE:</p>
+<p><img loading="lazy" src="../img/e14659e3.png#center" alt=""  />
+</p>
+<p>Respecto al tipo o carácter eléctrico, los pines pueden ser:</p>
+<ul>
+<li>3-State. El triestado posee tres estados lógicos posibles: bajo (cero lógico), alto (uno lógico) y alta impedancia (circuito abierto).</li>
+<li>Bidirectional. Actúa como entrada y como salida.</li>
+<li>Input. Entrada o receptor de señal.</li>
+<li>Open collector. Colector abierto, que omite el pull-up del colector.</li>
+<li>Open emitter. Emisor abierto, que omite el pull-down del emisor.</li>
+<li>Output. Salida o emisor de señal.</li>
+<li>Passive. Pasivo, no tiene fuente de energía.</li>
+<li>Power. De alimentación, que recibirá el positivo o masa.</li>
+</ul>
+<p>Los pines de alimentación no visibles se conectan por medio de etiquetas (alias) que llevan su nombre.</p>
+<h2 id="ejemplo-de-circuito-esquemático-terminado">Ejemplo de circuito esquemático terminado<a hidden class="anchor" aria-hidden="true" href="#ejemplo-de-circuito-esquemático-terminado">#</a></h2>
+<p><img loading="lazy" src="../img/ba59638b.png#center" alt=""  />
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://lmtreser.github.io/pcb_libs/pages/definiciones/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Introducción al Diseño Electrónico por Computadora</span>
+  </a>
+  <a class="next" href="https://lmtreser.github.io/pcb_libs/pages/pcb/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Placas de Circuito Impreso (PCB)</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://lmtreser.github.io/pcb_libs/">Apuntes sobre Diseño Electrónico</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

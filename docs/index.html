@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.113.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Apuntes sobre Diseño Electrónico</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://lmtreser.github.io/pcb_libs/">
+<link crossorigin="anonymous" href="/pcb_libs/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://lmtreser.github.io/pcb_libs/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://lmtreser.github.io/pcb_libs/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lmtreser.github.io/pcb_libs/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://lmtreser.github.io/pcb_libs/apple-touch-icon.png">
+<link rel="mask-icon" href="https://lmtreser.github.io/pcb_libs/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://lmtreser.github.io/pcb_libs/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Apuntes sobre Diseño Electrónico" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://lmtreser.github.io/pcb_libs/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Apuntes sobre Diseño Electrónico"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Apuntes sobre Diseño Electrónico",
+  "url": "https://lmtreser.github.io/pcb_libs/",
+  "description": "",
+  "thumbnailUrl": "https://lmtreser.github.io/pcb_libs/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://lmtreser.github.io/pcb_libs/" accesskey="h" title="Apuntes sobre Diseño Electrónico (Alt + H)">Apuntes sobre Diseño Electrónico</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://github.com/lmtreser/pcb_libs" title="Biblioteca PCB Libs">
+                    <span>Biblioteca PCB Libs</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/lmtreser/hugo-static-sites/tree/main/pcb_libs" title="Código fuente">
+                    <span>Código fuente</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="first-entry"> 
+  <header class="entry-header">
+    <h2>Apuntes y Generalidades sobre Diseño Electrónico por Computadora
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Contenidos Algunas definiciones. CAD electrónico. CAE electrónico. CAM electrónico. Detalle del proceso para obtención del prototipo.
+Circuitos Esquemáticos. Introducción. Cajetines (Title Block). Plegado de planos. Elementos de un esquemático. Etiquetas (label). Uniones. Capacitores de bypass en circuitos digitales. Pines de los componentes. Ejemplo de circuito esquemático terminado.
+Placas de Circuito Impreso (PCB). Introducción. Unidades de medida. Identificación y correspondencia de pines. Taladros de fijación. Definir valores globales de espaciado. Preparar la placa para el posicionado....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 10:49:30 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Apuntes y Generalidades sobre Diseño Electrónico por Computadora" href="https://lmtreser.github.io/pcb_libs/pages/contenidos/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Introducción al Diseño Electrónico por Computadora
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Algunas definiciones La automatización de los procesos industriales a lo largo de los años ha dado lugar a un avance espectacular de la industria. Todo ello ha sido posible gracias a una serie de factores entre los que cabe destacar las nuevas tecnologías, la generalización del uso de las computadoras y, sobre todo, el control y la regulación de sistemas.
+La incorporación de las computadoras en la producción es, sin lugar a dudas, el elemento puente que ha permitido lograr la automatización integral de los procesos industriales....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 10:49:31 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;8 min</footer>
+  <a class="entry-link" aria-label="post link to Introducción al Diseño Electrónico por Computadora" href="https://lmtreser.github.io/pcb_libs/pages/definiciones/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Circuitos Esquemáticos
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introducción Cuando se acomete un proyecto, en función del tamaño de los planos a dibujar o de la estructura y complejidad del mismo, podemos definir tres tipos de diseños: simple, plano y jerárquico.
+Diseño simple. Consta de una sola página de esquema o lámina, donde se dibujará el circuito, eligiendo el tamaño de lámina normalizado más adecuado (A÷E según la norma americana ANSI ó A4÷A0 según la europea DIN) o bien estableciendo uno personalizado....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 10:49:32 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;5 min</footer>
+  <a class="entry-link" aria-label="post link to Circuitos Esquemáticos" href="https://lmtreser.github.io/pcb_libs/pages/esquematicos/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Placas de Circuito Impreso (PCB)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.
+Podemos así clasificar las PCB atendiendo a distintos criterios:
+El sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 10:49:33 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;8 min</footer>
+  <a class="entry-link" aria-label="post link to Placas de Circuito Impreso (PCB)" href="https://lmtreser.github.io/pcb_libs/pages/pcb/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Montaje Final de las Placas
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Inserción de componentes Las tareas de insertar los componentes y soldarlos se llevarán a cabo más fácilmente si se dispone de un bastidor de trabajo para sujetar PCBs durante el montaje, pues lleva una tapa articulada forrada de gomaespuma para inmovilizar los componentes. En su defecto vale un tornillo de banco abatible o un pequeño robot.
+Antes de realizar la inserción de componentes en los orificios de la tarjeta procederemos al preformado de sus terminales....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 10:49:34 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;6 min</footer>
+  <a class="entry-link" aria-label="post link to Montaje Final de las Placas" href="https://lmtreser.github.io/pcb_libs/pages/montaje/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://lmtreser.github.io/pcb_libs/">Apuntes sobre Diseño Electrónico</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

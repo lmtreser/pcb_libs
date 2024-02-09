@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Placas de Circuito Impreso (PCB) | Apuntes sobre Diseño Electrónico</title>
+<meta name="keywords" content="">
+<meta name="description" content="Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.
+Podemos así clasificar las PCB atendiendo a distintos criterios:
+El sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles.">
+<meta name="author" content="">
+<link rel="canonical" href="https://lmtreser.github.io/pcb_libs/pages/pcb/">
+<link crossorigin="anonymous" href="/pcb_libs/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/pcb_libs/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://lmtreser.github.io/pcb_libs/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://lmtreser.github.io/pcb_libs/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lmtreser.github.io/pcb_libs/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://lmtreser.github.io/pcb_libs/apple-touch-icon.png">
+<link rel="mask-icon" href="https://lmtreser.github.io/pcb_libs/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Placas de Circuito Impreso (PCB)" />
+<meta property="og:description" content="Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.
+Podemos así clasificar las PCB atendiendo a distintos criterios:
+El sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmtreser.github.io/pcb_libs/pages/pcb/" /><meta property="article:section" content="pages" />
+<meta property="article:published_time" content="2024-02-09T10:49:33-03:00" />
+<meta property="article:modified_time" content="2024-02-09T10:49:33-03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Placas de Circuito Impreso (PCB)"/>
+<meta name="twitter:description" content="Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.
+Podemos así clasificar las PCB atendiendo a distintos criterios:
+El sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Pages",
+      "item": "https://lmtreser.github.io/pcb_libs/pages/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Placas de Circuito Impreso (PCB)",
+      "item": "https://lmtreser.github.io/pcb_libs/pages/pcb/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Placas de Circuito Impreso (PCB)",
+  "name": "Placas de Circuito Impreso (PCB)",
+  "description": "Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.\nPodemos así clasificar las PCB atendiendo a distintos criterios:\nEl sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introducción Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.\nPodemos así clasificar las PCB atendiendo a distintos criterios:\nEl sustrato o material: baquelita, fibra de vidrio, teflón, etc. El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles. Las PCB más comunes tienen 1,6 mm de espesor y una fina película de cobre de 35 micras. En cualquier caso, nuestro objetivo será realizar el diseño de las pistas ayudados por un editor. Obtendremos el resultado en dos formatos diferentes según sea el método de fabricación que vayamos a emplear:\nLos fotolitos en papel vegetal o transparencias, si elegimos el método químico sobre placas fotosensibilizadas. Los archivos Gerber, en caso de disponer de una máquina microfresadora CNC sobre placas vírgenes. En ambos casos supondremos que la fabricación del circuito impreso corre de nuestra cuenta, así como las fases posteriores de ensamblaje de componentes y soldadura manual. Esto implica que es conveniente trabajar con encapsulados cuyos pads sean ligeramente mayores que los de las librerías originales, pensados para fabricación automatizada con equipos profesionales. Por otra parte, estableceremos parámetros “generosos” de anchura de pistas y separaciones entre ellas.\nLlamaremos cara de componentes (top) aquélla donde van situados la mayoría de ellos, normalmente los de inserción y algunos de montaje superficial, y cara de soldadura (bottom) a la opuesta exterior. Quede claro que en caso de tarjetas con muchos componentes, habrá pistas y componentes en las dos caras.\nEn la figura se detalla el sistema para realizar la conexión eléctrica entre pistas de capas opuestas mediante las llamadas vías. Éstas son colocadas automáticamente durante el proceso de autoruteado.\nUnidades de medida Hay que tener cierta atención a la hora de trabajar con los software de diseño ya que por defecto, generalmente las unidades de medida están definidas en pulgadas (Sistema Anglosajón) y no en milímetros (Sistema Internacional). Por ejemplo es muy común ver el mil como unidad. El mil es una unidad de longitud igual a 1⁄1000 de una pulgada (una milésima de pulgada).\n1 pulgada 2,54 centímetros 1 mil 0,0254 milímetros Identificación y correspondencia de pines Sucede a menudo que es incorrecta la identificación original de terminales de algún componente discreto, es decir, que los números de los pines del mismo en el esquema no coinciden con los nombres de los pads en el layout. Este conflicto, que no sucede con los circuitos integrados, debemos solucionarlo en el esquemático.\nEs recomendable comprobar la correcta asignación y nombrado de pines de los componentes discretos. Por tanto, sugerimos que al crear o al modificar cualquier componente, por ejemplo, llamaremos:\nP a los terminales positivos y N a los negativos de condensadores electrolíticos, buzzers, pilas, etc. A al ánodo y K al cátodo de todo tipo de diodos. E, B y C para los transistores bipolares. A1, A2 y G para los TRIACs, etc. En los componentes sin polaridad también deberá haber correspondencia exacta entre los números de los pines, sobre todo si tienen más de dos. Taladros de fijación Una operación de mecanizado usual en las tarjetas consiste en situar, normalmente en la periferia, unos taladros de unos 3 mm de diámetro destinados a colocar los separadores de fijación de la misma. El número de ellos lo define el usuario y dependerá del tamaño y la forma de la tarjeta.\nDefinir valores globales de espaciado Preparar la placa para el posicionado Esta operación es crítica porque de ella dependerá que se realice un buen acabado en el posterior trazado de pistas (pocas vías y pistas cortas) y una distribución uniforme y racional de componentes, con previsión de futuro que facilite el acceso a los puntos de prueba en posibles reparaciones e inspecciones. Esto se puede traducir en los siguientes criterios funcionales:\nFacilitar las conexiones a regletas y bases conectoras situándolas próximas al borde de la PCB. Permitir con facilidad la realización de ajustes en trimmers y demás componentes variables. Aislar convenientemente los componentes emisores de radiaciones electromagnéticas. Alejar los componentes de potencia de aquellos que son más sensibles al calor. Separar las zonas de alta tensión respecto al resto. Respetar la separación mínima entre componentes. Dejar espacio apropiado para los tornillos de fijación de la placa y de componentes grandes. Prever el espacio necesario para los radiadores de los componentes de potencia. Alinear los componentes paralelos a los ejes X e Y. Agrupar los componentes en función del tipo: analógicos, digitales, etc. Orientar de una determinada forma los componentes polarizados, por ejemplo el cátodo de los diodos, la tolerancia de las resistencias y el positivo de los electrolíticos, mirando hacia la derecha en montaje axial y abajo en montaje radial. Montar los componentes del mismo tipo a ser posible en el mismo sentido. En ningún caso se introducirá en un taladro de pad más de un terminal de componente. No dejar componentes aislados del resto, evitando también aglomeraciones. Cuidar que se pueda leer correctamente el valor, nomenclatura y el código de marcado de cada componente. Utilizar una rejilla uniforme en milésimas de pulgada. Cuidar la presentación y el aspecto final de la tarjeta. Crear zonas de relleno de cobre (blindaje y escudos EMI) Hay tres tipos de obstáculos que se disponen en layout cuando se trabaja con cobre:\nCopper pour. Es un relleno de cobre que obedece a las reglas de aislamiento asignadas a pistas, las cuales pueden pasar a través de él. Puede utilizarse para la supresión de ruidos, como pantalla o para aislar señales.\nCopper area. Es una zona o área de cobre en la que no pueden trazarse pistas y que no respeta las normas de aislamiento. Permite crear formas de nodos personalizados, suprimir ruidos, evitar el calentamiento de componentes o actuar como barrera de trazado.\nAnti-copper. Son zonas sin cobre dentro de rellenos de cobre. Los rellenos y áreas de Cu pueden ser sólidos o enrejillados.\nTipos de vías Sabemos que las vías son taladros metalizados cuya misión es unir pistas situadas en distintas capas. Se emplean en las tarjetas de dos o más caras y nunca deben ser utilizadas para la inserción de los terminales de componentes. En las PCB multicapa las vías tienen una importancia fundamental porque realizan todas las interconexiones.\nDependiendo de la complejidad del diseño, estas tarjetas incorporan los siguientes tipos de vías:\nVía pasante (Through-hole via). Conecta las dos capas externas entre sí y, a veces, con algunas internas. Vía enterrada (Buried via). Conecta capas internas. Vía ciega (Blind via). Conecta una capa externa –top o bottom– con alguna(s) interna(s). Microvía (Micro via). Es un caso particular de vía ciega con dimensiones reducidas. Se caracteriza por no realizarse de forma mecánica, sino mediante tecnología láser. Puede llegar a conectar varias capas y facilita altísimos niveles de integración. Nodos térmicos Los nodos térmicos (Thermal reliefs) se emplean en las PCB multicapa para establecer el contacto entre las conexiones de positivo y negativo de cualquier capa con los planos de alimentación y masa respectivamente. También se emplean en las zonas de relleno de cobre. Son pads especiales que, al tener forma anular con discontinuidades, evitan la dispersión sobre una zona amplia de cobre y facilitan la transmisión del calor durante la soldadura.\nCapas Las capas pueden ser de los siguientes tipos:\nApta para el trazado (Routing Layer). No usada (Unused Routing). De taladros (Drill Layer). Plano (Plane Layer). De documentación (Documentation). De puentes (Jumper Layer). Las capas para el trazado de pistas pueden hacerse invisibles separadamente y tener distintos colores identificativos.\nLos planos de alimentación y masa pueden ser conectados a cualquier conexión o terminal de componentes.\nLas capas de serigrafía nos facilitarán el marcado del contorno de los componentes y su referencia, así como texto libre sobre la placa.\nLas capas de ensamblaje proporcionan detalles válidos para la fabricación, como dimensiones globales, cotas de posición, marcas fiduciales, etc.\nLas capas de taladrado contienen una codificación de la posición y diámetro de todos los taladros a realizar sobre la tarjeta.\nLas capas de máscara de soldadura se presentan en negativo, es decir, vemos los pads que definen, precisamente, las zonas donde no se aplicará el barniz de la máscara usada para soldar por ola.\nLas capas de pasta de soldadura, también en negativo, son aptas para componentes SMD.\nCálculo de ancho de pistas La determinación de la anchura de pistas de la PCB se facilita si admitimos que:\nPara corrientes menores de 300 mA dependerá del procedimiento de fabricación: en el caso de la química el ancho mínimo será de 0,5 mm y para microfresado de 0,3 mm.\nPara corrientes mayores de 300 mA y considerando una tarjeta con espesor de cobre de 35 micras, calculamos el ancho de cada pista mediante el gráfico de la figura, donde también se tiene cuenta el incremento de temperatura previsible en la placa. Como norma práctica digamos que basta con 0,5 mm de ancho por cada Ampere.\nPostprocesos Antes de dar por terminado el diseño de la PCB, debemos crear los archivos, informes y documentos de salida, en el formato adecuado a las máquinas y técnicas de fabricación que se usarán. Las tareas disponibles de postprocesado son las siguientes:\nRenombrar los componentes sobre la placa en la dirección que se desee y después reanotar estos cambios al esquema para mantener la coherencia del diseño. Documentar las dimensiones de la placa. Obtener la vista preliminar de las capas para comprobar los resultados y a continuación imprimir los fotolitos. Crear los archivos Gerber de las caras y taladros. Generación de informes. ",
+  "wordCount" : "1615",
+  "inLanguage": "en",
+  "datePublished": "2024-02-09T10:49:33-03:00",
+  "dateModified": "2024-02-09T10:49:33-03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lmtreser.github.io/pcb_libs/pages/pcb/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Apuntes sobre Diseño Electrónico",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lmtreser.github.io/pcb_libs/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://lmtreser.github.io/pcb_libs/" accesskey="h" title="Apuntes sobre Diseño Electrónico (Alt + H)">Apuntes sobre Diseño Electrónico</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://github.com/lmtreser/pcb_libs" title="Biblioteca PCB Libs">
+                    <span>Biblioteca PCB Libs</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/lmtreser/hugo-static-sites/tree/main/pcb_libs" title="Código fuente">
+                    <span>Código fuente</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Placas de Circuito Impreso (PCB)
+    </h1>
+    <div class="post-meta"><span title='2024-02-09 10:49:33 -0300 -03'>February 9, 2024</span>&nbsp;·&nbsp;8 min
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introducci%c3%b3n" aria-label="Introducción">Introducción</a></li>
+                <li>
+                    <a href="#unidades-de-medida" aria-label="Unidades de medida">Unidades de medida</a></li>
+                <li>
+                    <a href="#identificaci%c3%b3n-y-correspondencia-de-pines" aria-label="Identificación y correspondencia de pines">Identificación y correspondencia de pines</a></li>
+                <li>
+                    <a href="#taladros-de-fijaci%c3%b3n" aria-label="Taladros de fijación">Taladros de fijación</a></li>
+                <li>
+                    <a href="#definir-valores-globales-de-espaciado" aria-label="Definir valores globales de espaciado">Definir valores globales de espaciado</a></li>
+                <li>
+                    <a href="#preparar-la-placa-para-el-posicionado" aria-label="Preparar la placa para el posicionado">Preparar la placa para el posicionado</a></li>
+                <li>
+                    <a href="#crear-zonas-de-relleno-de-cobre-blindaje-y-escudos-emi" aria-label="Crear zonas de relleno de cobre (blindaje y escudos EMI)">Crear zonas de relleno de cobre (blindaje y escudos EMI)</a></li>
+                <li>
+                    <a href="#tipos-de-v%c3%adas" aria-label="Tipos de vías">Tipos de vías</a></li>
+                <li>
+                    <a href="#nodos-t%c3%a9rmicos" aria-label="Nodos térmicos">Nodos térmicos</a></li>
+                <li>
+                    <a href="#capas" aria-label="Capas">Capas</a></li>
+                <li>
+                    <a href="#c%c3%a1lculo-de-ancho-de-pistas" aria-label="Cálculo de ancho de pistas">Cálculo de ancho de pistas</a></li>
+                <li>
+                    <a href="#postprocesos" aria-label="Postprocesos">Postprocesos</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introducción">Introducción<a hidden class="anchor" aria-hidden="true" href="#introducción">#</a></h2>
+<p>Sabemos que una placa de circuito impreso o PCB es un soporte físico para componentes electrónicos que permite, además, su interconexión eléctrica. Dicho soporte está realizado a partir de una plancha de material aislante que lleva adherida, en una o en sus dos caras, una fina película de cobre.</p>
+<p>Podemos así clasificar las PCB atendiendo a distintos criterios:</p>
+<ul>
+<li>El sustrato o material: baquelita, fibra de vidrio, teflón, etc.</li>
+<li>El número de caras: de simple o doble cara, aunque también las hay multicapa o flexibles.</li>
+</ul>
+<p><img loading="lazy" src="../img/ea9fb22b.png#center" alt=""  />
+</p>
+<p>Las PCB más comunes tienen 1,6 mm de espesor y una fina película de cobre de 35 micras. En cualquier caso, nuestro objetivo será realizar el diseño de las pistas ayudados por un editor. Obtendremos el resultado en dos formatos diferentes según sea el método de fabricación que vayamos a emplear:</p>
+<ul>
+<li>Los fotolitos en papel vegetal o transparencias, si elegimos el método químico sobre placas fotosensibilizadas.</li>
+<li>Los archivos Gerber, en caso de disponer de una máquina microfresadora CNC sobre placas vírgenes.</li>
+</ul>
+<p>En ambos casos supondremos que la fabricación del circuito impreso corre de nuestra cuenta, así como las fases posteriores de ensamblaje de componentes y soldadura manual. Esto implica que es conveniente trabajar con encapsulados cuyos pads sean ligeramente mayores que los de las librerías originales, pensados para fabricación automatizada con equipos profesionales. Por otra parte, estableceremos parámetros “generosos” de anchura de pistas y separaciones entre ellas.</p>
+<p>Llamaremos cara de componentes (top) aquélla donde van situados la mayoría de ellos, normalmente los de inserción y algunos de montaje superficial, y cara de soldadura (bottom) a la opuesta exterior. Quede claro que en caso de tarjetas con muchos componentes, habrá pistas y componentes en las dos caras.</p>
+<p><img loading="lazy" src="../img/407c71e6.png#center" alt=""  />
+</p>
+<p>En la figura se detalla el sistema para realizar la conexión eléctrica entre pistas de capas opuestas mediante las llamadas vías. Éstas son colocadas automáticamente durante el proceso de autoruteado.</p>
+<p><img loading="lazy" src="../img/78e1286.png#center" alt=""  />
+</p>
+<h2 id="unidades-de-medida">Unidades de medida<a hidden class="anchor" aria-hidden="true" href="#unidades-de-medida">#</a></h2>
+<p>Hay que tener cierta atención a la hora de trabajar con los software de diseño ya que por defecto, generalmente las unidades de medida están definidas en pulgadas (Sistema Anglosajón) y no en milímetros (Sistema Internacional).  Por ejemplo es muy común ver el mil como unidad. El mil es una unidad de longitud igual a 1⁄1000 de una pulgada (una milésima de pulgada).</p>
+<pre tabindex="0"><code>1 pulgada   2,54 centímetros
+1 mil       0,0254 milímetros
+</code></pre><h2 id="identificación-y-correspondencia-de-pines">Identificación y correspondencia de pines<a hidden class="anchor" aria-hidden="true" href="#identificación-y-correspondencia-de-pines">#</a></h2>
+<p>Sucede a menudo que es incorrecta la identificación original de terminales de algún componente discreto, es decir, que los números de los pines del mismo en el esquema no coinciden con los nombres de los pads en el layout. Este conflicto, que no sucede con los circuitos integrados, debemos solucionarlo en el esquemático.</p>
+<p><img loading="lazy" src="../img/42d25621.png#center" alt=""  />
+</p>
+<p>Es recomendable comprobar la correcta asignación y nombrado de pines de los componentes discretos. Por tanto, sugerimos que al crear o al modificar cualquier componente, por ejemplo, llamaremos:</p>
+<ul>
+<li>P a los terminales positivos y N a los negativos de condensadores electrolíticos, buzzers, pilas, etc.</li>
+<li>A al ánodo y K al cátodo de todo tipo de diodos.</li>
+<li>E, B y C para los transistores bipolares.</li>
+<li>A1, A2 y G para los TRIACs, etc.</li>
+<li>En los componentes sin polaridad también deberá haber correspondencia exacta entre los números de los pines, sobre todo si tienen más de dos.</li>
+</ul>
+<h2 id="taladros-de-fijación">Taladros de fijación<a hidden class="anchor" aria-hidden="true" href="#taladros-de-fijación">#</a></h2>
+<p>Una operación de mecanizado usual en las tarjetas consiste en situar, normalmente en la periferia, unos taladros de unos 3 mm de diámetro destinados a colocar los separadores de fijación de la misma. El número de ellos lo define el usuario y dependerá del tamaño y la forma de la tarjeta.</p>
+<p><img loading="lazy" src="../img/99117987.png#center" alt=""  />
+</p>
+<h2 id="definir-valores-globales-de-espaciado">Definir valores globales de espaciado<a hidden class="anchor" aria-hidden="true" href="#definir-valores-globales-de-espaciado">#</a></h2>
+<p><img loading="lazy" src="../img/610e4d20.png#center" alt=""  />
+</p>
+<h2 id="preparar-la-placa-para-el-posicionado">Preparar la placa para el posicionado<a hidden class="anchor" aria-hidden="true" href="#preparar-la-placa-para-el-posicionado">#</a></h2>
+<p>Esta operación es crítica porque de ella dependerá que se realice un buen acabado en el posterior trazado de pistas (pocas vías y pistas cortas) y una distribución uniforme y racional de componentes, con previsión de futuro que facilite el acceso a los puntos de prueba en posibles reparaciones e inspecciones. Esto se puede traducir en los siguientes criterios funcionales:</p>
+<ul>
+<li>Facilitar las conexiones a regletas y bases conectoras situándolas próximas al borde de la PCB.</li>
+<li>Permitir con facilidad la realización de ajustes en trimmers y demás componentes variables.</li>
+<li>Aislar convenientemente los componentes emisores de radiaciones electromagnéticas.</li>
+<li>Alejar los componentes de potencia de aquellos que son más sensibles al calor.</li>
+<li>Separar las zonas de alta tensión respecto al resto.</li>
+<li>Respetar la separación mínima entre componentes.</li>
+<li>Dejar espacio apropiado para los tornillos de fijación de la placa y de componentes grandes.</li>
+<li>Prever el espacio necesario para los radiadores de los componentes de potencia.</li>
+<li>Alinear los componentes paralelos a los ejes X e Y.</li>
+<li>Agrupar los componentes en función del tipo: analógicos, digitales, etc.</li>
+<li>Orientar de una determinada forma los componentes polarizados, por ejemplo el cátodo de los diodos, la tolerancia de las resistencias y el positivo de los electrolíticos, mirando hacia la derecha en montaje axial y abajo en montaje radial.</li>
+<li>Montar los componentes del mismo tipo a ser posible en el mismo sentido.</li>
+<li>En ningún caso se introducirá en un taladro de pad más de un terminal de componente.</li>
+<li>No dejar componentes aislados del resto, evitando también aglomeraciones.</li>
+<li>Cuidar que se pueda leer correctamente el valor, nomenclatura y el código de marcado de cada componente.</li>
+<li>Utilizar una rejilla uniforme en milésimas de pulgada.</li>
+<li>Cuidar la presentación y el aspecto final de la tarjeta.</li>
+</ul>
+<h2 id="crear-zonas-de-relleno-de-cobre-blindaje-y-escudos-emi">Crear zonas de relleno de cobre (blindaje y escudos EMI)<a hidden class="anchor" aria-hidden="true" href="#crear-zonas-de-relleno-de-cobre-blindaje-y-escudos-emi">#</a></h2>
+<p>Hay tres tipos de obstáculos que se disponen en layout cuando se trabaja con cobre:</p>
+<ul>
+<li>
+<p>Copper pour. Es un relleno de cobre que obedece a las reglas de aislamiento asignadas a pistas, las cuales pueden pasar a través de él. Puede utilizarse para la supresión de ruidos, como pantalla o para aislar señales.</p>
+</li>
+<li>
+<p>Copper area. Es una zona o área de cobre en la que no pueden trazarse pistas y que no respeta las normas de aislamiento. Permite crear formas de nodos personalizados, suprimir ruidos, evitar el calentamiento de componentes o actuar como barrera de trazado.</p>
+</li>
+<li>
+<p>Anti-copper. Son zonas sin cobre dentro de rellenos de cobre. Los rellenos y áreas de Cu pueden ser sólidos o enrejillados.</p>
+</li>
+</ul>
+<p><img loading="lazy" src="../img/e6b7146e.png#center" alt=""  />
+</p>
+<h2 id="tipos-de-vías">Tipos de vías<a hidden class="anchor" aria-hidden="true" href="#tipos-de-vías">#</a></h2>
+<p>Sabemos que las vías son taladros metalizados cuya misión es unir pistas situadas en distintas capas. Se emplean en las tarjetas de dos o más caras y nunca deben ser utilizadas para la inserción de los terminales de componentes. En las PCB multicapa las vías tienen una importancia fundamental porque realizan todas las interconexiones.</p>
+<p>Dependiendo de la complejidad del diseño, estas tarjetas incorporan los siguientes tipos de vías:</p>
+<ul>
+<li>Vía pasante (Through-hole via). Conecta las dos capas externas entre sí y, a veces, con algunas internas.</li>
+<li>Vía enterrada (Buried via). Conecta capas internas.</li>
+<li>Vía ciega (Blind via). Conecta una capa externa –top o bottom– con alguna(s) interna(s).</li>
+<li>Microvía (Micro via). Es un caso particular de vía ciega con dimensiones reducidas. Se caracteriza por no realizarse de forma mecánica, sino mediante tecnología láser. Puede llegar a conectar varias capas y facilita altísimos niveles de integración.</li>
+</ul>
+<p><img loading="lazy" src="../img/29068d18.png#center" alt=""  />
+</p>
+<h2 id="nodos-térmicos">Nodos térmicos<a hidden class="anchor" aria-hidden="true" href="#nodos-térmicos">#</a></h2>
+<p>Los nodos térmicos (Thermal reliefs) se emplean en las PCB multicapa para establecer el contacto entre las conexiones de positivo y negativo de cualquier capa con los planos de alimentación y masa respectivamente. También se emplean en las zonas de relleno de cobre. Son pads especiales que, al tener forma anular con discontinuidades, evitan la dispersión sobre una zona amplia de cobre y facilitan la transmisión del calor durante la soldadura.</p>
+<p><img loading="lazy" src="../img/e777ec4e.png#center" alt=""  />
+</p>
+<h2 id="capas">Capas<a hidden class="anchor" aria-hidden="true" href="#capas">#</a></h2>
+<p>Las capas pueden ser de los siguientes tipos:</p>
+<ul>
+<li>Apta para el trazado (Routing Layer).</li>
+<li>No usada (Unused Routing).</li>
+<li>De taladros (Drill Layer).</li>
+<li>Plano (Plane Layer).</li>
+<li>De documentación (Documentation).</li>
+<li>De puentes (Jumper Layer).</li>
+</ul>
+<p><em>Las capas para el trazado de pistas</em> pueden hacerse invisibles separadamente y tener distintos colores identificativos.</p>
+<p><em>Los planos de alimentación y masa</em> pueden ser conectados a cualquier conexión o terminal de componentes.</p>
+<p><em>Las capas de serigrafía</em> nos facilitarán el marcado del contorno de los componentes y su referencia, así como texto libre sobre la placa.</p>
+<p><em>Las capas de ensamblaje</em> proporcionan detalles válidos para la fabricación, como dimensiones globales, cotas de posición, marcas fiduciales, etc.</p>
+<p><em>Las capas de taladrado</em> contienen una codificación de la posición y diámetro de todos los taladros a realizar sobre la tarjeta.</p>
+<p><em>Las capas de máscara de soldadura</em> se presentan en negativo, es decir, vemos los pads que definen, precisamente, las zonas donde no se aplicará el barniz de la máscara usada para soldar por ola.</p>
+<p><em>Las capas de pasta de soldadura</em>, también en negativo, son aptas para componentes SMD.</p>
+<h2 id="cálculo-de-ancho-de-pistas">Cálculo de ancho de pistas<a hidden class="anchor" aria-hidden="true" href="#cálculo-de-ancho-de-pistas">#</a></h2>
+<p>La determinación de la anchura de pistas de la PCB se facilita si admitimos que:</p>
+<ul>
+<li>
+<p>Para corrientes menores de 300 mA dependerá del procedimiento de fabricación: en el caso de la química el ancho mínimo será de 0,5 mm y para microfresado de 0,3 mm.</p>
+</li>
+<li>
+<p>Para corrientes mayores de 300 mA y considerando una tarjeta con espesor de cobre de 35 micras, calculamos el ancho de cada pista mediante el gráfico de la figura, donde también se tiene cuenta el incremento de temperatura previsible en la placa. Como norma práctica digamos que basta con 0,5 mm de ancho por cada Ampere.</p>
+</li>
+</ul>
+<p><img loading="lazy" src="../img/c394aad.png#center" alt=""  />
+</p>
+<h2 id="postprocesos">Postprocesos<a hidden class="anchor" aria-hidden="true" href="#postprocesos">#</a></h2>
+<p>Antes de dar por terminado el diseño de la PCB, debemos crear los archivos, informes y documentos de salida, en el formato adecuado a las máquinas y técnicas de fabricación que se usarán. Las tareas disponibles de postprocesado son las siguientes:</p>
+<ul>
+<li>Renombrar los componentes sobre la placa en la dirección que se desee y después reanotar estos cambios al esquema para mantener la coherencia del diseño.</li>
+<li>Documentar las dimensiones de la placa.</li>
+<li>Obtener la vista preliminar de las capas para comprobar los resultados y a continuación imprimir los fotolitos.</li>
+<li>Crear los archivos Gerber de las caras y taladros.</li>
+<li>Generación de informes.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://lmtreser.github.io/pcb_libs/pages/esquematicos/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Circuitos Esquemáticos</span>
+  </a>
+  <a class="next" href="https://lmtreser.github.io/pcb_libs/pages/montaje/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Montaje Final de las Placas</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://lmtreser.github.io/pcb_libs/">Apuntes sobre Diseño Electrónico</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
