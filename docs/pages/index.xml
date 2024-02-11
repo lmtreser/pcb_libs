@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pages on Apuntes sobre Diseño Electrónico</title>
+    <title>Pages on 💻 DASE</title>
     <link>https://lmtreser.github.io/pcb_libs/pages/</link>
-    <description>Recent content in Pages on Apuntes sobre Diseño Electrónico</description>
+    <description>Recent content in Pages on 💻 DASE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 09 Feb 2024 10:49:34 -0300</lastBuildDate><atom:link href="https://lmtreser.github.io/pcb_libs/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Apuntes y Generalidades sobre Diseño Electrónico por Computadora</title>
+      <title>Apuntes y Generalidades sobre Diseño Asistido y Simulación Electrónica</title>
       <link>https://lmtreser.github.io/pcb_libs/pages/contenidos/</link>
       <pubDate>Fri, 09 Feb 2024 10:49:30 -0300</pubDate>
       
       <guid>https://lmtreser.github.io/pcb_libs/pages/contenidos/</guid>
-      <description>Contenidos Algunas definiciones. CAD electrónico. CAE electrónico. CAM electrónico. Detalle del proceso para obtención del prototipo.
+      <description>✍🏻 Contenidos Algunas definiciones. CAD electrónico. CAE electrónico. CAM electrónico. Detalle del proceso para obtención del prototipo.
 Circuitos Esquemáticos. Introducción. Cajetines (Title Block). Plegado de planos. Elementos de un esquemático. Etiquetas (label). Uniones. Capacitores de bypass en circuitos digitales. Pines de los componentes. Ejemplo de circuito esquemático terminado.
 Placas de Circuito Impreso (PCB). Introducción. Unidades de medida. Identificación y correspondencia de pines. Taladros de fijación. Definir valores globales de espaciado. Preparar la placa para el posicionado.</description>
     </item>
