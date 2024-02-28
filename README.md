@@ -15,7 +15,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 #### Autodesk EAGLE
 
-**EAGLE** (siglas de Easily Applicable Graphical Layout Editor) es un programa de diseño de diagramas y PCBs con autoenrutador famoso alrededor del mundo, debido a la gran cantidad de bibliotecas de componentes alrededor de la red. Autodesk Inc. adquirió a la empresa desarrolladora original, CadSoft Computer GmbH en 2016. *Más en* [*Wikipedia*](https://es.m.wikipedia.org/wiki/EAGLE)
+**EAGLE** (siglas de Easily Applicable Graphical Layout Editor) es un programa de diseño de diagramas y PCBs con autoenrutador famoso alrededor del mundo, debido a la gran cantidad de bibliotecas de componentes alrededor de la red. Autodesk Inc. adquirió a la empresa desarrolladora original, CadSoft Computer GmbH en 2016. Más en [Wikipedia](https://es.m.wikipedia.org/wiki/EAGLE)
 
 La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk Legacy Software Versions](http://eagle.autodesk.com/eagle/software-versions/).
 
@@ -23,7 +23,7 @@ La última versión es la *9.6.2* y se puede descargar desde el sitio [Autodesk 
 
 #### KiCad EDA
 
-**KiCad** es un paquete de software libre para la automatización del diseño electrónico (del inglés: Electronic Design Automation, EDA). Facilita el diseño de esquemáticos para circuitos electrónicos y su conversión a placa de circuito impreso. KiCad fue desarrollado originalmente por Jean-Pierre Charras. Cuenta con un entorno integrado para captura esquemática y de diseño de PCB. Existen herramientas dentro del software para crear una lista de materiales, ilustraciones, archivos Gerber y vistas 3D de la PCB y sus componentes. *Más en* [*Wikipedia*](https://es.m.wikipedia.org/wiki/KiCad).
+**KiCad** es un paquete de software libre para la automatización del diseño electrónico (del inglés: Electronic Design Automation, EDA). Facilita el diseño de esquemáticos para circuitos electrónicos y su conversión a placa de circuito impreso. KiCad fue desarrollado originalmente por Jean-Pierre Charras. Cuenta con un entorno integrado para captura esquemática y de diseño de PCB. Existen herramientas dentro del software para crear una lista de materiales, ilustraciones, archivos Gerber y vistas 3D de la PCB y sus componentes. Más en [Wikipedia](https://es.m.wikipedia.org/wiki/KiCad).
 
 La última versión de KiCad se puede descargar desde el sitio oficial [KiCad EDA](https://www.kicad.org/).
 
@@ -31,7 +31,7 @@ La última versión de KiCad se puede descargar desde el sitio oficial [KiCad ED
 
 #### Fritzing
 
-**Fritzing** es un programa libre de automatización de diseño electrónico que busca ayudar a diseñadores y artistas para que puedan pasar de prototipos (usando, por ejemplo, placas de pruebas) a productos finales. Fritzing fue creado bajo los principios de Processing y Arduino, y permite a los diseñadores, artistas, investigadores y aficionados documentar sus prototipos basados en Arduino y crear esquemas de circuitos impresos para su posterior fabricación. Además, cuenta con un sitio web complementario que ayuda a compartir y discutir bosquejos y experiencias y a reducir los costos de fabricación. *Más en* [*Wikipedia*](https://es.m.wikipedia.org/wiki/Fritzing).
+**Fritzing** es un programa libre de automatización de diseño electrónico que busca ayudar a diseñadores y artistas para que puedan pasar de prototipos (usando, por ejemplo, placas de pruebas) a productos finales. Fritzing fue creado bajo los principios de Processing y Arduino, y permite a los diseñadores, artistas, investigadores y aficionados documentar sus prototipos basados en Arduino y crear esquemas de circuitos impresos para su posterior fabricación. Además, cuenta con un sitio web complementario que ayuda a compartir y discutir bosquejos y experiencias y a reducir los costos de fabricación. Más en [Wikipedia](https://es.m.wikipedia.org/wiki/Fritzing).
 
 La última versión de Fritzing se puede descargar desde el [sitio oficial](https://fritzing.org/download/).
 
