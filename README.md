@@ -80,6 +80,7 @@ La última versión de FidoCadJ se puede descargar desde el [sitio oficial](http
   
 - Otros Recursos
   - [Compendio de ánexos técnicos](https://drive.google.com/drive/folders/1JNl1bw6pRH7ckWr4CoAMkLXcyVetzXd8)
+  - [GrabCAD, free CAD files](https://grabcad.com/library)
   - [Ngspice, open source spice simulator](https://ngspice.sourceforge.io/)
 
 ## Licencia
